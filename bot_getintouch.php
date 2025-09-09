@@ -1,105 +1,87 @@
 <!-- Contact Us Start -->
     <style>
-      /* Make the left column tall enough to center things nicely */
-      .contact .left-col {
-        min-height: 100vh; /* so the iframe sits in the middle vertically */
+
+    .get-in-touch {
+      background-color: #111;
+      color: white;
+      padding: 3rem 4rem;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 1000px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+      gap: 3rem;
+      margin: 7rem auto; /* centers it horizontally */
+    }
+
+    .get-in-touch h2 {
+      color:#ffffff;
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    .get-in-touch p {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    .get-in-touch .btn {
+      background-color: white;
+      color: black;
+      padding: 0.8rem 1.6rem;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.3s ease;
+      white-space: nowrap;
+    }
+
+    .get-in-touch .btn:hover {
+      background-color: #eaeaea;
+      transform: translateX(3px);
+    }
+
+    .arrow {
+      font-size: 1.2rem;
+    }
+
+    .text-content {
+      max-width: 70%;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+      .get-in-touch {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
       }
 
-      /* 80% of the viewport height for the map */
-      .contact .map-frame {
-        width: 100%;
-        height: 80vh;
-        border: 0;
+      .text-content {
+        max-width: 100%;
       }
 
-      /* Optional: adjust for small screens so it doesn't feel too tall */
-      @media (max-width: 767.98px) {
-        .contact .left-col {
-          min-height: auto;
-        }
-        .contact .map-frame {
-          height: 50vh;
-        }
+      .get-in-touch .btn {
+        align-self: center;
       }
-    </style>
-
-    <div class="container-fluid bg-primary contact p-0">
-      <div class="container p-0">
-        <div class="row g-0 align-items-stretch">
-          <!-- Left Side: Map (centered vertically, 80% screen height) -->
-          <div
-            class="col-md-5 ps-lg-0 wow fadeIn d-flex align-items-center justify-content-center left-col"
-            data-wow-delay="0.2s"
-          >
-            <iframe
-              class="map-frame"
-              src="https://maps.google.com/maps?q=F1%20Infotech%20Pvt.%20Ltd.%20C-160%2C%20IInd%20Floor%2C%20MayaPuri%20Industrial%20Phase-II%2C%20New%20Delhi-110064&t=&z=15&ie=UTF8&iwloc=&output=embed"
-              allowfullscreen
-              loading="lazy"
-            >
-            </iframe>
-          </div>
-
-          <!-- Right Side: Contact Form -->
-          <div
-            class="col-md-7 py-5 contact-text wow fadeIn d-flex align-items-center"
-            data-wow-delay="0.5s"
-          >
-            <div class="p-5 w-100">
-              <h1 class="mb-5">
-                Get in
-                <span class="text-uppercase text-primary bg-white px-2"
-                  >Touch</span
-                >
-              </h1>
-
-              <form>
-                <div class="mb-3">
-                  <input
-                    type="text"
-                    class="form-control border-0 ps-4"
-                    placeholder="Your Name"
-                    style="height: 55px"
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <input
-                    type="email"
-                    class="form-control border-0 ps-4"
-                    placeholder="Your Email"
-                    style="height: 55px"
-                    required
-                  />
-                </div>
-                <div class="mb-3">
-                  <input
-                    type="text"
-                    class="form-control border-0 ps-4"
-                    placeholder="Subject"
-                    style="height: 55px"
-                    required
-                  />
-                </div>
-                <div class="mb-4">
-                  <textarea
-                    class="form-control border-0 ps-4 pt-3"
-                    rows="5"
-                    placeholder="Your Message"
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  class="btn btn-light px-4 py-2 text-primary fw-bold"
-                >
-                  Submit
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+    }
+  </style>
+</head>
+<body>
+  <div class="get-in-touch">
+    <div class="text-content">
+      <h2>F1 can help you</h2>
+      <p>Get in touch with our in-house experts to find the right solution for your IT Infrastructure.</p>
     </div>
+    <button class="btn"><a href="ContactUs.html">Get in Touch <span class="arrow">→</span></a></button>
+  </div>
     <!-- Contact Us End -->
 
 

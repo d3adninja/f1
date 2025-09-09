@@ -238,6 +238,12 @@
         </div>
       </div> -->
 
+      <div class="text-center mt-4">
+  <a href="solutions.php" class="btn btn-primary px-4 py-2 ">
+    Explore our Solutions
+  </a>
+</div>
+    
     </div>
   </div>
 </div>
@@ -349,11 +355,25 @@
           </p>
         </div>
       </div> -->
+      <div class="text-center mt-4">
+  <a href="sevice.html" class="btn btn-primary px-4 py-2">
+    Explore our Services
+  </a>
+</div>
 
     </div>
   </div>
 </div>
 
+<style>
+.btn-primary {
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+</style>
 
 
 

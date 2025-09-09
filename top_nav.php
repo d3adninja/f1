@@ -113,7 +113,7 @@
                       <h6 class="text-dark fw-bold">Our Latest</h6>
                       <ul>
                       <li><a href="events.php" class="dropdown-item">Events</a></li>
-                      <li><a href="newsroom.php" class="dropdown-item">News Room</a></li>
+                      <!-- <li><a href="newsroom.php" class="dropdown-item">News Room</a></li> -->
                       <li><a href="#" class="dropdown-item">Careers</a></li>
                       </ul>
                     </div>
