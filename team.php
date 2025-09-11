@@ -52,7 +52,7 @@
             </p>
             <!-- Social Icons -->
             <div class="d-flex">
-              <span class="fs-5 text-primary">Linked In Profile: &nbsp;</span>
+              <span class="fs-5 text-primary">LinkedIn Profile: &nbsp;</span>
               <a class="btn btn-outline-primary btn-sm-square border-2" href="">
                 <i class="fab fa-linkedin-in"></i>
               </a>
@@ -82,7 +82,7 @@ Supervises the marketing area of company.
             </p>
             <!-- Social Icons -->
             <div class="d-flex">
-              <span class="fs-5 text-primary">Linked In Profile: &nbsp;</span>
+              <span class="fs-5 text-primary">LinkedIn Profile: &nbsp;</span>
               <a class="btn btn-outline-primary btn-sm-square border-2" href="">
                 <i class="fab fa-linkedin-in"></i>
               </a>

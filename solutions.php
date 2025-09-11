@@ -12,7 +12,6 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center justify-content-lg-end mb-0">
                             <li class="breadcrumb-item"><a class="text-primary" href="index.html">Home</a></li>
-                            
                             <li class="breadcrumb-item text-secondary active" aria-current="page">Solutions</li>
                         </ol>
                     </nav>
@@ -24,7 +23,7 @@
 
 
 <!-- Feature Start -->
-<div class="container-fluid py-5 bg-light">
+<div class="container-fluid py-5 " style="background-color:#eef7ff;">
   <div class="container">
     <div class="text-center mb-5">
       <h1>
@@ -38,90 +37,106 @@
 
       <!-- Card 1 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-server fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Virtualization</h5>
-          <p class="mb-0 small">
-            Latest breakthroughs in AI and cloud technologies.
-          </p>
-        </div>
+        <a href="sol_virtualization.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-server fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Virtualization</h5>
+            <p class="mb-0 small">
+              Latest breakthroughs in AI and cloud technologies.
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 2 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-network-wired fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Network &amp; Surveillance</h5>
-          <p class="mb-0 small">
-            Secure, reliable, and intelligent connectivity for a safer tomorrow.
-          </p>
-        </div>
+        <a href="sol_network.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-network-wired fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Network &amp; Surveillance</h5>
+            <p class="mb-0 small">
+              Secure, reliable, and intelligent connectivity for a safer tomorrow.
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 3 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-lock fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Security</h5>
-          <p class="mb-0 small">
-            Shielding your data, powering your future.
-          </p>
-        </div>
+        <a href="sol_security.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-lock fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Security</h5>
+            <p class="mb-0 small">
+              Shielding your data, powering your future.
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 4 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-code fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Software Development &amp; Deployment</h5>
-          <p class="mb-0 small">
-            Turning your ideas into scalable, reliable, and secure software.
-          </p>
-        </div>
+        <a href="sol_devndep.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-code fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Software Development &amp; Deployment</h5>
+            <p class="mb-0 small">
+              Turning your ideas into scalable, reliable, and secure software.
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 5 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-cubes fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Converged &amp; Hyperconverged Infrastructure</h5>
-          <p class="mb-0 small">
-            Simplify, accelerate, and scale your IT with next-gen infrastructure.
-          </p>
-        </div>
+        <a href="sol_infra.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-cubes fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Converged &amp; Hyperconverged Infrastructure</h5>
+            <p class="mb-0 small">
+              Simplify, accelerate, and scale your IT with next-gen infrastructure.
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 6 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-wifi fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Internet of Things</h5>
-          <p class="mb-0 small">
-            Connecting devices, creating possibilities.
-          </p>
-        </div>
+        <a href="sol_iot.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-wifi fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Internet of Things</h5>
+            <p class="mb-0 small">
+              Connecting devices, creating possibilities.
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 7 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-database fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Backup</h5>
-          <p class="mb-0 small">
-            Because business continuity starts with backup!
-          </p>
-        </div>
+        <a href="sol_backup.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-database fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Backup</h5>
+            <p class="mb-0 small">
+              Because business continuity starts with backup!
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 8 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-cloud fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Cloud Services</h5>
-          <p class="mb-0 small">
-            Flexible, scalable, and secure cloud solutions for your business.
-          </p>
-        </div>
+        <a href="sol_cloud.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-cloud fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Cloud Services</h5>
+            <p class="mb-0 small">
+              Flexible, scalable, and secure cloud solutions for your business.
+            </p>
+          </div>
+        </a>
       </div>
 
     </div>
@@ -154,8 +169,8 @@
 
 
 
-        <?php require("bot_getintouch.php"); ?>
-    <!-- Newsletter End -->
+<?php require("bot_getintouch.php"); ?>
+<!-- Newsletter End -->
 
 
-   <?php require("bot_footer.php"); ?>
+<?php require("bot_footer.php"); ?>

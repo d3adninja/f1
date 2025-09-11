@@ -31,10 +31,10 @@
           <div class="col-lg-6">
             <div class="row">
               <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                <img class="img-fluid" src="img/ourstory2.png" alt="" />
+                <img class="img-fluid" src="img/ourstory8.jpg " alt="" />
               </div>
               <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
-                <img class="img-fluid h-75" src="img/ourstory1.jpeg" alt="" />
+                <img class="img-fluid h-75" src="img/ourstory7.jpg" alt="" />
                 <div
                   class="h-25 d-flex align-items-center text-center bg-primary px-4"
                 >
@@ -57,7 +57,7 @@
               us grow into a recognized IT solutions partner for enterprises, BFSI, government, and telecom sectors.
             </p>
             
-            <div class="d-flex align-items-center mt-5">
+            <!-- <div class="d-flex align-items-center mt-5">
               <a class="btn btn-primary px-4 me-2" href="">Read More</a>
               <a
                 class="btn btn-outline-primary btn-square border-2 me-2"
@@ -75,9 +75,8 @@
                 ><i class="fab fa-instagram"></i
               ></a>
               <a class="btn btn-outline-primary btn-square border-2" href=""
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
+                ><i class="fab fa-linkedin-in"></i></a>
+            </div> -->
           </div>
         </div>
       </div>
@@ -87,7 +86,7 @@
 
     
 <!-- Timeline Start -->
-<div class="container-fluid py-6 bg-light">
+<div class="container-fluid py-6" style="background-color:#eef7ff" >
   <div class="container" style="min-height:500px;">
     <br>
    
@@ -167,7 +166,7 @@
           <div class="timeline-dot"></div>
           <div class="timeline-connector"></div>
           <div class="timeline-content">
-            <h5>2024</h5>
+            <h5>2025</h5>
             <p class="small">30+ Million USD enterprise with 300+ customers.</p>
           </div>
         </div>
@@ -392,102 +391,61 @@
 
 
 <!-- Service Start -->
-    <div class="container-fluid py-5">
-      <div class="container py-5">
-        <div class="row g-5 align-items-center">
-          <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-            <h1 class="mb-5">
-              Our
-              <span class="text-uppercase text-primary bg-light px-2"
-                >Approach</span
-              >
-            </h1>
-            <p>
-              We follow a Discover–Design–Deploy–Retain model, ensuring every
-              solution is thoughtfully crafted, efficiently executed, and
-              consistently optimized. Our goal is to deliver measurable value,
-              not just services.
-            </p>
-            <p class="mb-5"></p>
-            <p>
-             
-            </p>
-            <!-- <div class="d-flex align-items-center bg-light">
-              <div
-                class="btn-square flex-shrink-0 bg-primary"
-                style="width: 100px; height: 100px"
-              >
-                <i class="fa fa-phone fa-2x text-white"></i>
-              </div>
-              <div class="px-3">
-                <h3>+011 499 685 67</h3>
-                <span>Call us for consultation</span>
-              </div>
-            </div> -->
-          </div>
-          <div class="col-lg-7">
-            <div class="row g-0">
-              <div class="col-md-6 wow fadeIn" data-wow-delay="0.2s">
-                <div
-                  class="service-item h-100 d-flex flex-column justify-content-center bg-primary"
-                >
-                  <a href="" class="service-img position-relative mb-4">
-                    <img
-                      class="img-fluid w-100"
-                      src="img/discover1.png"
-                      alt=""
-                    />
-                    <h3>Discover</h3>
-                  </a>
-                  <p class="mb-0">
-                    Identify goals, problems and gather detailed requirements.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-6 wow fadeIn" data-wow-delay="0.4s">
-                <div
-                  class="service-item h-100 d-flex flex-column justify-content-center bg-light"
-                >
-                  <a href="" class="service-img position-relative mb-4">
-                    <img class="img-fluid w-100" src="img/design2.png" alt="" />
-                    <h3>Design</h3>
-                  </a>
-                  <p class="mb-0">
-                    Craft seamless wireframes, flows, and UI mockups.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-6 wow fadeIn" data-wow-delay="0.6s">
-                <div
-                  class="service-item h-100 d-flex flex-column justify-content-center bg-light"
-                >
-                  <a href="" class="service-img position-relative mb-4">
-                    <img class="img-fluid w-100" src="img/deploy2.png" alt="" />
-                    <h3>Deploy</h3>
-                  </a>
-                  <p class="mb-0">
-                    Build, test, and deploy scalable solutions with precision.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-6 wow fadeIn" data-wow-delay="0.8s">
-                <div
-                  class="service-item h-100 d-flex flex-column justify-content-center bg-primary"
-                >
-                  <a href="" class="service-img position-relative mb-4">
-                    <img class="img-fluid w-100" src="img/retain1.png" alt="" />
-                    <h3>Retain</h3>
-                  </a>
-                  <p class="mb-0">
-                    Monitor, support, and continuously evolve solutions.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+   <div class="container-fluid py-5" style="background-color:#eef7ff">
+  <div class="container py-5 text-center">
+    <!-- Section Header -->
+    <h1 class="mb-4 wow fadeIn" data-wow-delay="0.1s">
+      Our
+      <span class="text-uppercase text-primary bg-light px-2">Approach</span>
+    </h1>
+    <p class="mb-5 wow fadeIn" data-wow-delay="0.2s">
+      We follow a Discover–Design–Deploy–Retain model, ensuring every
+      solution is thoughtfully crafted, efficiently executed, and
+      consistently optimized. Our goal is to deliver measurable value,
+      not just services.
+    </p>
+
+    <!-- Steps Grid -->
+    <div class="row g-4 justify-content-center">
+      <!-- Discover -->
+      <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+        <div class="service-item h-100 d-flex flex-column align-items-center bg-primary text-center p-4 rounded-3 shadow">
+          <img class="img-fluid mb-3" src="img/discover3.png" alt="Discover" />
+          <h3 class="mb-2">Discover</h3>
+          <p>Identify goals, problems and gather detailed requirements.</p>
+        </div>
+      </div>
+
+      <!-- Design -->
+      <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.4s">
+        <div class="service-item h-100 d-flex flex-column align-items-center bg-light text-center p-4 rounded-3 shadow">
+          <img class="img-fluid mb-3" src="img/design3.png" alt="Design" />
+          <h3 class="mb-2">Design</h3>
+          <p>Craft seamless wireframes, flows, and UI mockups.</p>
+        </div>
+      </div>
+
+      <!-- Deploy -->
+      <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+        <div class="service-item h-100 d-flex flex-column align-items-center bg-light text-center p-4 rounded-3 shadow">
+          <img class="img-fluid mb-3" src="img/deploy4.png" alt="Deploy" />
+          <h3 class="mb-2">Deploy</h3>
+          <p>Build, test, and deploy scalable solutions with precision.</p>
+        </div>
+      </div>
+
+      <!-- Retain -->
+      <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.6s">
+        <div class="service-item h-100 d-flex flex-column align-items-center bg-primary text-center p-4 rounded-3 shadow">
+          <img class="img-fluid mb-3" src="img/retain3.png" alt="Retain" />
+          <h3 class="mb-2">Retain</h3>
+          <p>Monitor, support, and continuously evolve solutions.</p>
         </div>
       </div>
     </div>
+  </div>
+</div>
+
     <!-- Service End -->
 
 

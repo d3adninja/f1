@@ -227,7 +227,7 @@
         margin-right: 32px;
         margin-top: -25px;
         width: min(600px, 42vw);
-        background: #e6f0ef;
+        background: #eef7ff;
         border-radius: 18px;
         padding: 28px 30px;
         box-shadow: 0 10px 28px rgba(0, 0, 0, 0.55);
@@ -342,6 +342,7 @@
             top: 0;
             margin: 8px 0 18px;
             z-index: 0;
+            
         }
 
         .commitment {
@@ -390,15 +391,16 @@
     }
 </style>
 
-<section class="about" id="about">
+<section class="about" id="about" >
     <h1 class="about-heading">Glimpse of our events</h1>
     <img class="about-bg" src="img/employes.avif" alt="About background" />
     <div class="commitment">
-        <h2>F1 Infotech</h2>
+        <h2>Events at F1 </h2>
         <p>
-            F1 Infotech is a trusted provider of innovative IT solutions,<br>
-                         delivering cutting-edge technology services to help <br>
-                         businesses grow and adapt in the digital era.
+            At F1 Infotech, our events bring together visionaries, innovators, and decision-makers from
+across industries to exchange ideas and explore the future of technology. From exclusive CXO
+roundtables and thought-leadership panels to knowledge-sharing sessions with global OEMs,
+our events are designed to inspire collaboration and drive digital transformation.
         </p>
     </div>
 

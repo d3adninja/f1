@@ -37,6 +37,18 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
+
+     <!-- Owl Carousel CSS (CDN) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
+
+  <!-- Animate.css (v4) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+
+
+    
+
+
   </head>
 
   <body>
@@ -114,15 +126,15 @@
                       <ul>
                       <li><a href="events.php" class="dropdown-item">Events</a></li>
                       <!-- <li><a href="newsroom.php" class="dropdown-item">News Room</a></li> -->
-                      <li><a href="#" class="dropdown-item">Careers</a></li>
+                      <li><a href="careers.php" class="dropdown-item">Careers</a></li>
                       </ul>
                     </div>
                     <!-- Section 4: Resources -->
                     <div>
                       <h6 class="text-dark fw-bold">Resources</h6>
                       <ul>
-                      <li><a href="#" class="dropdown-item">Blog</a></li>
-                      <li><a href="#" class="dropdown-item">Case Studies</a></li>
+                      <li><a href="blogs.php" class="dropdown-item">Blog</a></li>
+                      <li><a href="casestudies.php" class="dropdown-item">Case Studies</a></li>
                       </ul>
                     </div>
                   </div>
@@ -130,7 +142,7 @@
               </div>
               <!-- End Company Dropdown -->
               <a href="solutions.php" class="nav-item nav-link">Solutions</a>
-              <a href="project.php" class="nav-item nav-link">Services</a>
+              <a href="services.php" class="nav-item nav-link">Services</a>
               <a href="contact.php" class="nav-item nav-link">Contact</a>
             </div>
           </div>

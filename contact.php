@@ -5,14 +5,14 @@
         <div class="container py-5">
             <div class="row g-3 align-items-center">
                 <div class="col-lg-6 text-center text-lg-start">
-                    <h1 class="display-1 mb-0 animated slideInLeft">Contact</h1>
+                    <h1 class="display-1 mb-0 animated slideInLeft">Connect with Us</h1>
                 </div>
                 <div class="col-lg-6 animated slideInRight">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center justify-content-lg-end mb-0">
                             <li class="breadcrumb-item"><a class="text-primary" href="#">Home</a></li>
                            
-                            <li class="breadcrumb-item text-secondary active" aria-current="page">Contact</li>
+                            <li class="breadcrumb-item text-secondary active" aria-current="page">Connect with Us</li>
                         </ol>
                     </nav>
                 </div>
@@ -23,7 +23,7 @@
 
 
 <!-- Contact Start -->
-<div class="container-fluid py-5">
+<div class="container-fluid py-5 " style="background-color:#eef7ff">
     <div class="container py-5">
         <div class="text-center wow fadeIn" data-wow-delay="0.1s">
             <h1 class="mb-5">Have Any Query? 
@@ -76,7 +76,7 @@
                                     <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
                                     <label for="message">Message</label>
                                 </div>
-                                 <button class="btn btn-primary w-100 py-3 my-2" type="submit">Send Message</button>
+                                 <button class="btn btn-primary w-100 py-3 my-2 " type="submit">Send Message</button>
                             </div>
                         </div>
                         <div class="mt-3">

@@ -1,6 +1,8 @@
 <?php require('top_nav.php'); ?>
 
-    <!-- Hero Start -->
+
+
+<!-- Hero Start -->
     <div class="container-fluid pb-5 hero-header bg-light mb-5">
       <div class="container py-5">
         <div class="row g-5 align-items-center mb-5">
@@ -63,28 +65,29 @@
       </div>
     </div>
     <!-- Hero End -->
+<!-- Hero End -->
 
 
 <!-- Intro Text Section Start -->
 <div class="container-fluid my-6 py-6 bg">
   <div class="container text-center">
     <h1 class="display-4 fw-bold mb-4">
-      Technology is central to everything we do, and 
+      Technology is central to everything we do, and
       <span class="text-primary">F1 is thriving</span>
     </h1>
     <br>
     <br>
-          
-          
+
+
     <p class="lead mb-5 px-lg-5">
-      We offer a comprehensive suite of IT solutions designed to simplify complexity, enhance security, 
-      and drive operational excellence. From cloud and infrastructure to cybersecurity and managed services, 
+      We offer a comprehensive suite of IT solutions designed to simplify complexity, enhance security,
+      and drive operational excellence. From cloud and infrastructure to cybersecurity and managed services,
       our offerings are built to support digital transformation across industries.
     </p>
 
     <br>
     <br>
-    
+
 
     <!-- Cards Row Start
     <div class="row justify-content-center mb-5">
@@ -124,9 +127,9 @@
     <div class="d-flex justify-content-center gap-4 mt-4">
       <a href="solutions.php" class="btn btn-primary btn-lg px-5 py-3">Explore Our Solutions</a>
       <a href="feature.php" class="btn btn-outline-primary btn-lg px-5 py-3">About the Company</a>
-      
-      
-          
+
+
+
     </div>
     <br>
     <br>
@@ -144,7 +147,7 @@
       <h1>
         Explore Solutions
         <span class="text-uppercase text-primary bg-white px-2">
-        With F1 Infotech
+          With F1 Infotech
         </span>
       </h1>
     </div>
@@ -152,46 +155,54 @@
 
       <!-- Card 1 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-server fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Virtualization</h5>
-          <p class="mb-0 small">
-            Latest breakthroughs in AI and cloud technologies.
-          </p>
-        </div>
+        <a href="sol_virtualization.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-server fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Virtualization</h5>
+            <p class="mb-0 small">
+              Latest breakthroughs in AI and cloud technologies.
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 2 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-network-wired fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Network &amp; Surveillance</h5>
-          <p class="mb-0 small">
-            Secure, reliable, and intelligent connectivity for a safer tomorrow.
-          </p>
-        </div>
+        <a href="sol_network.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-network-wired fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Network &amp; Surveillance</h5>
+            <p class="mb-0 small">
+              Secure, reliable, and intelligent connectivity for a safer tomorrow.
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 3 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-lock fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Security</h5>
-          <p class="mb-0 small">
-            Shielding your data, powering your future.
-          </p>
-        </div>
+        <a href="sol_security.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-lock fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Security</h5>
+            <p class="mb-0 small">
+              Shielding your data, powering your future.
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 4 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-code fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Software Development &amp; Deployment</h5>
-          <p class="mb-0 small">
-            Turning your ideas into scalable, reliable, and secure software.
-          </p>
-        </div>
+        <a href="sol_devndep.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-code fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Software Development &amp; Deployment</h5>
+            <p class="mb-0 small">
+              Turning your ideas into scalable, reliable, and secure software.
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 5 -->
@@ -238,19 +249,22 @@
         </div>
       </div> -->
 
-      <div class="text-center mt-4">
-  <a href="solutions.php" class="btn btn-primary px-4 py-2 ">
-    Explore our Solutions
-  </a>
-</div>
-    
+
+      <br>
+      <br>
+      <div class="text-center mt-5">
+        <a href="solutions.php" class="btn btn-primary px-4 py-2 ">
+          Explore our Solutions
+        </a>
+      </div>
+
     </div>
   </div>
 </div>
 
 
 
-<br>
+
 
 
 
@@ -262,7 +276,7 @@
       <h1>
         Explore Services
         <span class="text-uppercase text-primary bg-white px-2">
-        With F1 Infotech
+          With F1 Infotech
         </span>
       </h1>
     </div>
@@ -270,47 +284,56 @@
 
       <!-- Card 1 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-server fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">AMC Services</h5>
-          <p class="mb-0 small">
-            Reliable IT upkeep, so your business never slows down.
-          </p>
-        </div>
+        <a href="ser_amc.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-tools fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">AMC Services</h5>
+            <p class="mb-0 small">
+              Reliable IT upkeep, so your business never slows down.
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 2 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-network-wired fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Managed Services</h5>
-          <p class="mb-0 small">
-            Simplify IT. Focus on growth—we’ll handle the rest.
-          </p>
-        </div>
+        <a href="ser_manserv.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-cogs fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Managed Services</h5>
+            <p class="mb-0 small">
+              Simplify IT. Focus on growth—we’ll handle the rest.
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 3 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-lock fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Technology Staffing</h5>
-          <p class="mb-0 small">
-            The right talent, when you need it.
-          </p>
-        </div>
+        <a href="ser_techstaff.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-users fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Technology Staffing</h5>
+            <p class="mb-0 small">
+              The right talent, when you need it.
+            </p>
+          </div>
+        </a>
       </div>
 
       <!-- Card 4 -->
       <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-code fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Process Automation</h5>
-          <p class="mb-0 small">
-            Automate routine tasks, accelerate business outcomes.
-          </p>
-        </div>
+        <a href="ser_processauto.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-robot fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Process Automation</h5>
+            <p class="mb-0 small">
+              Automate routine tasks, accelerate business outcomes.
+            </p>
+          </div>
+        </a>
       </div>
+
 
       <!-- Card 5 -->
       <!-- <div class="col-6 col-md-3">
@@ -355,24 +378,27 @@
           </p>
         </div>
       </div> -->
-      <div class="text-center mt-4">
-  <a href="sevice.html" class="btn btn-primary px-4 py-2">
-    Explore our Services
-  </a>
-</div>
+      <br>
+      <br>
+      <div class="text-center mt-5">
+        <a href="services.php" class="btn btn-primary px-4 py-2">
+          Explore our Services
+        </a>
+      </div>
 
     </div>
   </div>
 </div>
 
 <style>
-.btn-primary {
-  transition: all 0.3s ease-in-out;
-}
-.btn-primary:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
-}
+  .btn-primary {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
 </style>
 
 
@@ -387,14 +413,17 @@
     border-radius: 12px;
     background: #fff;
   }
+
   .feature-card:hover {
     transform: translateY(-8px) scale(1.03);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     border-color: #0d6efd;
   }
+
   .feature-card i {
     transition: color 0.3s ease-in-out;
   }
+
   .feature-card:hover i {
     color: #0a58ca;
   }
@@ -407,107 +436,104 @@
 
 
 
-  <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-      <div class="container py-5">
-        <!-- Section Heading -->
-        <div class="row justify-content-center mb-5">
-          <div class="col-lg-8 text-center">
-            <h2 class="display-5 fw-bold mb-3">Latest at F1</h2>
-            <div
-              class="mx-auto"
-              style="
+<!-- Testimonial Start -->
+<div class="container-xxl py-5">
+  <div class="container py-5">
+    <!-- Section Heading -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-8 text-center">
+        <h2 class="display-5 fw-bold mb-3">Latest at F1</h2>
+        <div
+          class="mx-auto"
+          style="
                 width: 180px;
                 height: 3px;
                 background: #0d6efd;
                 border-radius: 2px;
-              "
-            ></div>
-          </div>
-        </div>
+              "></div>
+      </div>
+    </div>
 
-        <div class="row justify-content-center border border-primary border-4 p-4">
-          <div class="col-md-12 col-lg-9">
-            <div
-              class="owl-carousel testimonial-carousel wow fadeIn"
-              data-wow-delay="0.2s"
-            >
-              <div class="testimonial-item">
-                <div class="row g-5 align-items-center">
-                  <div class="col-md-6">
-                    <div class="testimonial-img">
-                      <img
-                        class="img-fluid"
-                        src="img/innovate (2).jpg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="testimonial-text pb-5 pb-md-0">
-                      <h3>Innovate & Migrate Nutanix</h3>
-                      <p>
-                        F1 InfoTech hosts “Innovate and Migrate” roundtable in
-                        partnership with Nutanix – July 2025
-                      </p>
-                      <a class="btn btn-primary px-4 me-2" href="">View More</a>
-                    </div>
-                  </div>
+    <div class="row justify-content-center border border-primary border-4 p-4">
+      <div class="col-md-12 col-lg-9">
+        <div
+          class="owl-carousel testimonial-carousel wow fadeIn"
+          data-wow-delay="0.2s">
+          <div class="testimonial-item">
+            <div class="row g-5 align-items-center">
+              <div class="col-md-6">
+                <div class="testimonial-img">
+                  <img
+                    class="img-fluid"
+                    src="img/innovate (2).jpg"
+                    alt="" />
                 </div>
               </div>
-
-              <div class="testimonial-item">
-                <div class="row g-5 align-items-center">
-                  <div class="col-md-6">
-                    <div class="testimonial-img">
-                      <img class="img-fluid" src="img/Pteam.jpg" alt="" />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="testimonial-text pb-5 pb-md-0">
-                      <h3>Annual Business Meet 2025</h3>
-                      <p>
-                        Celebrating success while prepping for the year ahead –
-                        May 2025
-                      </p>
-                      <a class="btn btn-primary px-4 me-2" href="">View More</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="testimonial-item">
-                <div class="row g-5 align-items-center">
-                  <div class="col-md-6">
-                    <div class="testimonial-img">
-                      <img class="img-fluid" src="img/techsplash.jpg" alt="" />
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="testimonial-text pb-5 pb-md-0">
-                      <h3>TechSplash 2025</h3>
-                      <p>
-                        Showcasing cutting-edge innovations and real-world
-                        solutions at India’s top IT conference – March 2025
-                      </p>
-                      <a class="btn btn-primary px-4 me-2" href="">View More</a>
-                    </div>
-                  </div>
+              <div class="col-md-6">
+                <div class="testimonial-text pb-5 pb-md-0">
+                  <h3>Innovate & Migrate Nutanix</h3>
+                  <p>
+                    F1 InfoTech hosts “Innovate and Migrate” roundtable in
+                    partnership with Nutanix – July 2025
+                  </p>
+                  <a class="btn btn-primary px-4 me-2" href="">View More</a>
                 </div>
               </div>
             </div>
-            <!-- carousel end -->
+          </div>
+
+          <div class="testimonial-item">
+            <div class="row g-5 align-items-center">
+              <div class="col-md-6">
+                <div class="testimonial-img">
+                  <img class="img-fluid" src="img/Pteam.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="testimonial-text pb-5 pb-md-0">
+                  <h3>Annual Business Meet 2025</h3>
+                  <p>
+                    Celebrating success while prepping for the year ahead –
+                    May 2025
+                  </p>
+                  <a class="btn btn-primary px-4 me-2" href="">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-item">
+            <div class="row g-5 align-items-center">
+              <div class="col-md-6">
+                <div class="testimonial-img">
+                  <img class="img-fluid" src="img/techsplash.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="testimonial-text pb-5 pb-md-0">
+                  <h3>TechSplash 2025</h3>
+                  <p>
+                    Showcasing cutting-edge innovations and real-world
+                    solutions at India’s top IT conference – March 2025
+                  </p>
+                  <a class="btn btn-primary px-4 me-2" href="">View More</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <!-- carousel end -->
       </div>
     </div>
-    <!-- Testimonial End -->
-   
+  </div>
+</div>
+<!-- Testimonial End -->
 
 
 
-    <!-- About Start -->
-    <!-- <div class="container-fluid py-5 my-6">
+
+<!-- About Start -->
+<!-- <div class="container-fluid py-5 my-6">
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-6">
@@ -582,11 +608,11 @@
         </div>
       </div>
     </div> -->
-    <!-- About End -->
+<!-- About End -->
 
-   <!-- Customers Start -->
+<!-- Customers Start -->
 <div class="container-fluid py-5" style="background-color: #cddfed;">
-  
+
 
   <div class="text-center mb-5">
     <h1>
@@ -598,7 +624,7 @@
   <!-- Second Row of Carousels -->
   <div class="customer-carousel d-flex align-items-center">
     <div class="customer-logos reverse">
-      
+
       <img src="img/Customers/aiims.png" alt="Customer 1" />
       <img src="img/Customers/bp.png" alt="Customer 2" />
       <img src="img/Customers/coforge.png" alt="Customer 3" />
@@ -624,7 +650,7 @@
       <img src="img/Customers/suzuki.png" alt="Customer 23" />
       <img src="img/Customers/tpd.png" alt="Customer 24" />
       <!-- duplicate set for seamless loop -->
-     
+
       <img src="img/Customers/aiims.png" alt="Customer 1" />
       <img src="img/Customers/bp.png" alt="Customer 2" />
       <img src="img/Customers/coforge.png" alt="Customer 3" />
@@ -658,7 +684,7 @@
 
 
 
-<div class="text-center mb-5" style="background-color: #cddfed;">
+  <div class="text-center mb-5" style="background-color: #cddfed;">
     <h1>
       Our <span class="text-uppercase text-primary bg-white px-2">Partners</span>
     </h1>
@@ -679,8 +705,8 @@
       <img src="img/Parteners/redhat.png" alt="Customer 9" />
       <img src="img/Parteners/veeam.png" alt="Customer 10" />
       <img src="img/Parteners/vmware.png" alt="Customer 11" />
-      
-     
+
+
       <!-- duplicate set for seamless loop -->
       <img src="img/Parteners/aws.png" alt="Customer 1" />
       <img src="img/Parteners/azure.png" alt="Customer 2" />
@@ -693,66 +719,70 @@
       <img src="img/Parteners/redhat.png" alt="Customer 9" />
       <img src="img/Parteners/veeam.png" alt="Customer 10" />
       <img src="img/Parteners/vmware.png" alt="Customer 11" />
-      
+
     </div>
   </div>
-  </div>
+</div>
 <!-- Customers End -->
 
 <style>
-.customer-carousel {
-  overflow: hidden;
-  position: relative;
-  height: 100px;
-  width: 100%; /* full width */
-}
-
-.customer-logos {
-  display: flex;
-  gap: 40px;
-  animation: scrollLeft 25s linear infinite;
-  width: max-content; /* ensures continuous flow */
-}
-
-.customer-logos.reverse {
-  animation: scrollRight 30s linear infinite;
-  
-}
-
-.customer-logos img {
-  max-height: 80px;
-  object-fit: contain;
-  filter: grayscale(100%);
-  transition: all 0.3s ease-in-out;
-}
-
-.customer-logos img:hover {
-  filter: grayscale(0%);
-  transform: scale(1.1);
-}
-
-@keyframes scrollLeft {
-  0% {
-    transform: translateX(0);
+  .customer-carousel {
+    overflow: hidden;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    /* full width */
   }
-  100% {
-    transform: translateX(-50%);
-  }
-}
 
-@keyframes scrollRight {
-  0% {
-    transform: translateX(-50%);
+  .customer-logos {
+    display: flex;
+    gap: 40px;
+    animation: scrollLeft 25s linear infinite;
+    width: max-content;
+    /* ensures continuous flow */
   }
-  100% {
-    transform: translateX(0);
+
+  .customer-logos.reverse {
+    animation: scrollRight 30s linear infinite;
+
   }
-}
+
+  .customer-logos img {
+    max-height: 80px;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .customer-logos img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+  }
+
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes scrollRight {
+    0% {
+      transform: translateX(-50%);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
 </style>
 
 
-    <!-- Feature Start -->
-    <!-- <div class="container-fluid py-5">
+<!-- Feature Start -->
+<!-- <div class="container-fluid py-5">
       <div class="container">
         <div class="text-center wow fadeIn" data-wow-delay="0.1s">
           <h1 class="mb-5">
@@ -815,10 +845,10 @@
       </div>
     </div> -->
 
-    <!-- Feature End -->
+<!-- Feature End -->
 
-    <!-- Project Start -->
-    <!-- <div class="container-fluid mt-5">
+<!-- Project Start -->
+<!-- <div class="container-fluid mt-5">
         <div class="container mt-5">
             <div class="row g-0">
                 <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
@@ -889,10 +919,10 @@
             </div>
         </div>
     </div> -->
-    <!-- Project End -->
+<!-- Project End -->
 
-    <!-- Service Start -->
-    <!-- <div class="container-fluid py-5">
+<!-- Service Start -->
+<!-- <div class="container-fluid py-5">
       <div class="container py-5">
         <div class="row g-5 align-items-center">
           <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
@@ -992,10 +1022,10 @@
         </div>
       </div>
     </div> -->
-    <!-- Service End -->
+<!-- Service End -->
 
-    <!-- Team Start -->
-    <!-- <div class="container-fluid bg-light py-5">
+<!-- Team Start -->
+<!-- <div class="container-fluid bg-light py-5">
       <div class="container py-5">
         <h1 class="mb-5">
           Our<span class="text-uppercase text-primary bg-light px-2">
@@ -1146,16 +1176,11 @@
         </div>
       </div>
     </div> -->
-    <!-- Team End -->
-
-  
-
-    <!-- Testimonial End -->
-
-    <?php require("bot_getintouch.php"); ?>
-    <?php require("bot_footer.php"); ?>
+<!-- Team End -->
 
 
-    
 
-    
+<!-- Testimonial End -->
+
+<?php require("bot_getintouch.php"); ?>
+<?php require("bot_footer.php"); ?>

@@ -24,7 +24,7 @@
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
-  --bs-light: #e6f0ef;
+  --bs-light: #eef7ff;
   --bs-dark: #03201f;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
@@ -6427,7 +6427,7 @@ fieldset:disabled .btn {
   margin-top: 1rem !important;
 }
 .mt-4 {
-  margin-top: 1.5rem !important;
+  margin-top: 2.5rem !important;
 }
 .mt-5 {
   margin-top: 3rem !important;
@@ -6903,7 +6903,7 @@ fieldset:disabled .btn {
   background-color: #dc3545 !important;
 }
 .bg-light {
-  background-color: #e6f0ef !important;
+  background-color: #eef7ff !important;
 }
 .bg-dark {
   background-color: #03201f !important;
