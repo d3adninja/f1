@@ -3,74 +3,78 @@
 
 
 <!-- Hero Start -->
-    <div class="container-fluid pb-5 hero-header bg-light mb-5">
-      <div class="container py-5">
-        <div class="row g-5 align-items-center mb-5">
-          <div class="col-lg-6">
-            <h1 class="display-1 mb-4 animated slideInRight">
-              Simplifying Complex
-              <span class="text-primary">IT Landscapes</span>
-            </h1>
-            <h5
-              class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slideInRight"
-            >
-              From virtualization to migration — we design, deploy, and manage
-              technology that works for your business.
-            </h5>
-          </div>
-          <div class="col-lg-6">
-            <div class="owl-carousel header-carousel animated fadeIn">
-              <img class="img-fluid" src="img/c3.jpg" alt="" />
-              <img class="img-fluid" src="img/c1.jpg" alt="" />
-              <img class="img-fluid" src="img/c2.jpg" alt="" />
-              
-            </div>
-          </div>
+<div class="container-fluid pb-5 hero-header bg-light mb-5">
+  <div class="container py-5">
+    <div class="row g-5 align-items-center mb-5">
+      <div class="col-lg-6">
+        <h1 class="display-1 mb-4 animated slideInRight">
+          Simplifying Complex
+          <span class="text-primary">IT Landscapes</span>
+        </h1>
+        <h5
+          class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slideInRight">
+          From virtualization to migration — we design, deploy, and manage
+          technology that works for your business.
+        </h5>
+      </div>
+      <div class="col-lg-6">
+        <div class="owl-carousel header-carousel animated fadeIn">
+          <img class="img-fluid" src="img/c3.jpg" alt="" />
+          <img class="img-fluid" src="img/c1.jpg" alt="" />
+          <img class="img-fluid" src="img/c2.jpg" alt="" />
+
         </div>
-        <div class="row g-5 animated fadeIn">
-  <div class="col-md-6 col-lg-3">
-    <div class="d-flex align-items-center">
-      <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-        <i class="fa fa-trophy text-primary"></i>
       </div>
-      <h5 class="lh-base mb-0">60+ Industry & OEM Awards</h5>
     </div>
-  </div>
-  <div class="col-md-6 col-lg-3">
-    <div class="d-flex align-items-center">
-      <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-        <i class="fa fa-history text-primary"></i>
+    <div class="row g-5 animated fadeIn">
+      <div class="col-md-6 col-lg-3">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
+            <i class="fa fa-trophy text-primary"></i>
+          </div>
+          <h5 class="lh-base mb-0">60+ Industry & OEM Awards</h5>
+        </div>
       </div>
-      <h5 class="lh-base mb-0">23+ Years of Proven Expertise</h5>
-    </div>
-  </div>
-  <div class="col-md-6 col-lg-3">
-    <div class="d-flex align-items-center">
-      <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-        <i class="fa fa-globe text-primary"></i>
+      <div class="col-md-6 col-lg-3">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
+            <i class="fa fa-history text-primary"></i>
+          </div>
+          <h5 class="lh-base mb-0">23+ Years of Proven Expertise</h5>
+        </div>
       </div>
-      <h5 class="lh-base mb-0">300+ Global <br> Customers</h5>
-    </div>
-  </div>
-  <div class="col-md-6 col-lg-3">
-    <div class="d-flex align-items-center">
-      <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-        <i class="fa fa-users text-primary"></i>
+      <div class="col-md-6 col-lg-3">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
+            <i class="fa fa-globe text-primary"></i>
+          </div>
+          <h5 class="lh-base mb-0">300+ Global <br> Customers</h5>
+        </div>
       </div>
-      <h5 class="lh-base mb-0">100+ Skilled Professionals</h5>
+      <div class="col-md-6 col-lg-3">
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
+            <i class="fa fa-users text-primary"></i>
+          </div>
+          <h5 class="lh-base mb-0">100+ Skilled Professionals</h5>
+        </div>
+      </div>
     </div>
+
   </div>
 </div>
-
-      </div>
-    </div>
-    <!-- Hero End -->
+<!-- Hero End -->
 <!-- Hero End -->
 
 
 <!-- Intro Text Section Start -->
+
+
+
+
 <div class="container-fluid my-6 py-6 bg">
   <div class="container text-center">
+    <br><br>
     <h1 class="display-4 fw-bold mb-4">
       Technology is central to everything we do, and
       <span class="text-primary">F1 is thriving</span>
@@ -124,12 +128,9 @@
     </div> -->
     <!-- Cards Row End -->
 
-    <div class="d-flex justify-content-center gap-4 mt-4">
-      <a href="solutions.php" class="btn btn-primary btn-lg px-5 py-3">Explore Our Solutions</a>
-      <a href="feature.php" class="btn btn-outline-primary btn-lg px-5 py-3">About the Company</a>
-
-
-
+       <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-4">
+      <a href="solutions.php" class="btn btn-primary btn-lg px-4 py-2">Explore Our Solutions</a>
+      <a href="feature.php" class="btn btn-outline-primary btn-lg px-4 py-2">About the Company</a>
     </div>
     <br>
     <br>
@@ -151,10 +152,10 @@
         </span>
       </h1>
     </div>
-    <div class="row g-4">
 
+    <div class="row g-4">
       <!-- Card 1 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="sol_virtualization.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-server fa-3x text-primary mb-3"></i>
@@ -167,7 +168,7 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="sol_network.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-network-wired fa-3x text-primary mb-3"></i>
@@ -180,7 +181,7 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="sol_security.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-lock fa-3x text-primary mb-3"></i>
@@ -193,7 +194,7 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="sol_devndep.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-code fa-3x text-primary mb-3"></i>
@@ -204,63 +205,18 @@
           </div>
         </a>
       </div>
+    </div>
 
-      <!-- Card 5 -->
-      <!-- <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-cubes fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Converged &amp; Hyperconverged Infrastructure</h5>
-          <p class="mb-0 small">
-            Simplify, accelerate, and scale your IT with next-gen infrastructure.
-          </p>
-        </div>
-      </div>
-
-
-      <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-wifi fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Internet of Things</h5>
-          <p class="mb-0 small">
-            Connecting devices, creating possibilities.
-          </p>
-        </div>
-      </div>
-
-  
-      <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-database fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Backup</h5>
-          <p class="mb-0 small">
-            Because business continuity starts with backup!
-          </p>
-        </div>
-      </div>
-
-
-      <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-cloud fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Cloud Services</h5>
-          <p class="mb-0 small">
-            Flexible, scalable, and secure cloud solutions for your business.
-          </p>
-        </div>
-      </div> -->
-
-
-      <br>
-      <br>
-      <div class="text-center mt-5">
-        <a href="solutions.php" class="btn btn-primary px-4 py-2 ">
-          Explore our Solutions
-        </a>
-      </div>
-
+    <!-- Button -->
+    <div class="text-center mt-5">
+      <a href="solutions.php" class="btn btn-primary px-4 py-2">
+        Explore our Solutions
+      </a>
     </div>
   </div>
 </div>
+<!-- Feature End -->
+
 
 
 
@@ -282,8 +238,8 @@
     </div>
     <div class="row g-4">
 
-      <!-- Card 1 -->
-      <div class="col-6 col-md-3">
+      <!-- Card 1 --->
+       <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_amc.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-tools fa-3x text-primary mb-3"></i>
@@ -296,7 +252,7 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_manserv.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-cogs fa-3x text-primary mb-3"></i>
@@ -309,7 +265,7 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_techstaff.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-users fa-3x text-primary mb-3"></i>
@@ -322,7 +278,7 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_processauto.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-robot fa-3x text-primary mb-3"></i>

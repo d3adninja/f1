@@ -36,7 +36,7 @@
     <div class="row g-4">
 
       <!-- Card 1 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_amc.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-tools fa-3x text-primary mb-3"></i>
@@ -47,7 +47,7 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_manserv.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-headset fa-3x text-primary mb-3"></i>
@@ -58,7 +58,7 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_techstaff.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-users fa-3x text-primary mb-3"></i>
@@ -69,7 +69,7 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_processauto.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-robot fa-3x text-primary mb-3"></i>
@@ -80,7 +80,7 @@
       </div>
 
       <!-- Card 5 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_secngov.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-shield-alt fa-3x text-primary mb-3"></i>
@@ -91,7 +91,7 @@
       </div>
 
       <!-- Card 6 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_projauto.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-project-diagram fa-3x text-primary mb-3"></i>
@@ -102,7 +102,7 @@
       </div>
 
       <!-- Card 7 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_compaudit.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-clipboard-check fa-3x text-primary mb-3"></i>
@@ -113,7 +113,7 @@
       </div>
 
       <!-- Card 8 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_locsupp.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-globe fa-3x text-primary mb-3"></i>

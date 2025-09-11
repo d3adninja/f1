@@ -36,7 +36,7 @@
     <div class="row g-4">
 
       <!-- Card 1 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="sol_virtualization.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-server fa-3x text-primary mb-3"></i>
@@ -49,7 +49,7 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="sol_network.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-network-wired fa-3x text-primary mb-3"></i>
@@ -62,7 +62,7 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="sol_security.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-lock fa-3x text-primary mb-3"></i>
@@ -75,7 +75,7 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="sol_devndep.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-code fa-3x text-primary mb-3"></i>
@@ -88,7 +88,7 @@
       </div>
 
       <!-- Card 5 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="sol_infra.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-cubes fa-3x text-primary mb-3"></i>
@@ -101,7 +101,7 @@
       </div>
 
       <!-- Card 6 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="sol_iot.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-wifi fa-3x text-primary mb-3"></i>
@@ -114,7 +114,7 @@
       </div>
 
       <!-- Card 7 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="sol_backup.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-database fa-3x text-primary mb-3"></i>
@@ -127,7 +127,7 @@
       </div>
 
       <!-- Card 8 -->
-      <div class="col-6 col-md-3">
+      <div class="col-12 col-sm-6 col-md-3">
         <a href="sol_cloud.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
             <i class="fa fa-cloud fa-3x text-primary mb-3"></i>

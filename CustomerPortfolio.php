@@ -173,12 +173,7 @@
     </div>
   </div>
 
-  <div class="col-6 col-md-4 col-lg-3 wow zoomIn" data-wow-delay="2.0s">
-    <div class="card border-0 shadow-sm text-center p-3 h-100 portfolio-card">
-      <img src="img/Customers/railtel.png" class="img-fluid mx-auto mb-3" alt="Company Logo 20" style="max-height:60px;">
-      <h6 class="mb-0"></h6>
-    </div>
-  </div>
+
 
   <div class="col-6 col-md-4 col-lg-3 wow zoomIn" data-wow-delay="2.1s">
     <div class="card border-0 shadow-sm text-center p-3 h-100 portfolio-card">
