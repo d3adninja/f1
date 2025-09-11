@@ -44,11 +44,6 @@
 
   <!-- Animate.css (v4) -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
-
-
-    
-
-
   </head>
 
   <body>
@@ -75,10 +70,14 @@
           class="navbar navbar-expand-lg navbar-light border-bottom border-2 border-white"
         >
           <a href="index.html" class="navbar-brand d-flex align-items-center">
-  <!-- Text by default -->
-  <h1 id="brand-text" class="mb-0"> <img src="img/f1bgrlogo.png" style="height:60px;"/> F1 InfoTech Pvt. Ltd.</h1>
-  <!-- Logo hidden initially -->
-  <img id="brand-logo" src="img/f1bysimran.jpg" alt="F1 Logo" style="height:50px; display:none;">
+  <!-- Full text logo (desktop only) -->
+  <h1 id="brand-text" class="mb-0 d-none d-lg-block">
+    <img src="img/f1bgrlogo.png" style="height:60px;" /> F1 InfoTech Pvt. Ltd.
+  </h1>
+
+  <!-- Small logo (mobile only) -->
+  <img id="brand-logo" src="img/f1bysimran.jpg" alt="F1 Logo" 
+       class="d-block d-lg-none" style="height:50px;">
 </a>
           <button
             type="button"
@@ -149,37 +148,75 @@
         </nav>
       </div>
     </div>
-    <script>
-  window.addEventListener("scroll", function () {
-    const navbar = document.querySelector(".navbar");
-    const brandText = document.getElementById("brand-text");
-    const brandLogo = document.getElementById("brand-logo");
 
-    if (window.scrollY > 50) {
-      // When navbar sticks after scroll
+  <style>
+  
 
-      brandText.style.display = "none";
-      brandLogo.style.display = "block";
-    } else {
-      // Default state
-      brandText.style.display = "block";
-      brandLogo.style.display = "none";
-    }
-  });
-</script>
+
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #eef7ff !important; /* match section bg */
+    padding: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    color: #000 !important; /* keep text readable */
+  }
+
+  .navbar-nav .dropdown-menu {
+    background-color: #eef7ff !important; /* dropdowns blend too */
+    border: none;
+  }
+}
+
+  </style>
+
+    <!-- Navbar End -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
-    const currentPage = window.location.pathname.split("/").pop();
+    const navbarCollapse = document.getElementById("navbarCollapse");
+    const navbarToggler = document.querySelector(".navbar-toggler");
 
-    navLinks.forEach(link => {
-      if (link.getAttribute("href") === currentPage) {
-        link.classList.add("active");
+    // Ensure hamburger toggles open/close
+    navbarToggler.addEventListener("click", function () {
+      const bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
+      if (navbarCollapse.classList.contains("show")) {
+        bsCollapse.hide(); // Close if open
       } else {
-        link.classList.remove("active");
+        bsCollapse.show(); // Open if closed
       }
+    });
+
+    
+
+    // Fix dropdown toggle for mobile
+    document.querySelectorAll(".navbar .dropdown-toggle").forEach(function (dropdown) {
+      dropdown.addEventListener("click", function (e) {
+        if (window.innerWidth < 992) { // mobile only
+          e.preventDefault();
+          let menu = this.nextElementSibling;
+
+          if (menu && menu.classList.contains("dropdown-menu")) {
+            menu.classList.toggle("show");
+
+            // Special cases: "Company" and "Condition" dropdowns
+            if (["Company", "Condition"].includes(this.textContent.trim())) {
+              let innerLinks = menu.querySelectorAll(".dropdown-item");
+              innerLinks.forEach(link => {
+                link.addEventListener("click", () => {
+                  menu.classList.remove("show"); // close dropdown
+                  const bsCollapse = new bootstrap.Collapse(navbarCollapse, { toggle: false });
+                  bsCollapse.hide(); // also close navbar
+                });
+              });
+            }
+          }
+        }
+      });
     });
   });
 </script>
-
-    <!-- Navbar End -->
