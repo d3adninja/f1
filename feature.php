@@ -360,9 +360,26 @@
                 </div>
                 <br>
                 <p class="mb-4">
-                  To be the most trusted partner for enterprises by delivering secure, scalable, and future-ready IT solutions that accelerate digital transformation.</p>
+                  To be the most trusted partner for enterprises by delivering secure, scalable, and future-ready IT solutions that accelerate digital transformation.</p><br>
   
-                <a href="#" class="btn btn-primary mt-auto align-self-start">Read More</a>
+                <style>
+                  .custom-outline-btn {
+  font-size: 1.1rem;
+  padding: 0.9rem 2rem;
+  border-radius: 50px;             /* more rounded */
+  border: 2px solid #0d6efd;       /* blue border */
+  background-color: transparent;   /* no background */
+  color: #0d6efd !important;       /* blue text */
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.custom-outline-btn:hover {
+  background-color: #0d6efd;  /* blue background on hover */
+  color: #fff !important;     /* white text on hover */
+}
+</style>
+                  <a class="btn custom-outline-btn px-5 py-3 me-2" href="events.php">Read More</a>
               </div>
             </div>
           </div>
@@ -379,7 +396,7 @@
                 <p class="mb-4">
                   Our mission is to discover each client’s unique challenges, design innovative and tailored IT solutions, deploy them with speed, security, and efficiency, and build long-lasting partnerships that deliver measurable business value.</p>
    
-                <a href="#" class="btn btn-primary mt-auto align-self-start">Read More</a>
+                <a class="btn custom-outline-btn px-5 py-3 me-2" href="events.php">Read More</a>
               </div>
             </div>
           </div>

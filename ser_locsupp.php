@@ -110,87 +110,42 @@
   <div class="container">
     <div class="text-center mb-5">
       <h2 class="fw-bold">Who Can Benefit?</h2>
-      <p class="text-muted">Organizations that gain the most from centralized IT support</p>
+      <p class="text-muted">Industries and organizations that gain the most from Backup Solutions</p>
     </div>
 
-    <div class="timeline">
-      <!-- Step 1 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-building"></i>
-        </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">Enterprises with Multiple Offices & Vendors</h5>
-          <p class="small">Organizations with geographically distributed teams and IT vendors.</p>
-        </div>
-      </div>
-
-      <!-- Step 2 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-globe"></i>
-        </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">Global Organizations Seeking Unified Support</h5>
-          <p class="small">Companies operating in multiple countries with complex IT requirements.</p>
+    <div class="row g-4 justify-content-center">
+      <!-- Benefit 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-building"></i>
+          </div>
+          <h5 class="fw-bold">Enterprises with multiple offices and vendors.</h5>
         </div>
       </div>
 
-      <!-- Step 3 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-university"></i>
+      <!-- Benefit 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-university"></i>
+          </div>
+          <h5 class="fw-bold">Global organizations seeking unified support.</h5>
         </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">Government Projects Spread Across States</h5>
-          <p class="small">Public sector projects needing consistent IT support across locations.</p>
+      </div>
+
+      <!-- Benefit 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-landmark"></i>
+          </div>
+          <h5 class="fw-bold">Government projects spread across states.</h5>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!-- Who Can Benefit End -->
-
-
-<!-- F1 Can Help You Section -->
-<div class="container-fluid py-5" style="background: linear-gradient(135deg, #ffffff, #eef7ff);">
-  <div class="container text-center">
-    <h2 class="fw-bold mb-4 display-5 text-primary">F1 Can Help You!</h2>
-    <div class="help-card mx-auto p-4 p-md-5">
-      <p class="lead mb-0 text-dark">
-        Our team manages <span class="fw-bold text-primary">end-to-end coordination with multiple vendors</span>, 
-        streamlining communication and ensuring faster issue resolution. From 
-        <span class="fw-bold text-primary">troubleshooting hardware failures to managing multi-location IT setups</span>, 
-        we provide uniform support backed by strong governance. <br><br>
-        With experience across <span class="fw-bold text-primary">2,500+ client environments</span>, F1 ensures your IT 
-        stays reliable and hassle-free — whether you operate from one office or across multiple regions.
-      </p>
-    </div>
-  </div>
-</div>
-
-<!-- Custom CSS -->
-<style>
-  .help-card {
-    max-width: 800px;
-    background: #ffffff;
-    border-radius: 20px;
-    border: 1px solid #e6e6e6;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    transition: all 0.3s ease-in-out;
-  }
-  .help-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
-  }
-</style>
-
-
-
-
-
-
-
 
 
 
@@ -229,60 +184,40 @@
   }
 </style>
 
-<!-- Timeline CSS -->
-<style>
-  .timeline {
-    position: relative;
-    margin: 0 auto;
-    padding-left: 40px;
-    border-left: 3px solid #0d6efd;
-    max-width: 700px;
-  }
+<!-- Contact Us Start -->
+<div class="container" style="max-width:1200px; margin:5rem auto;">
+  <div class="card shadow-sm border-0 rounded-3 bg-light mb-5">
+    <div class="card-body p-5 d-flex flex-column flex-md-row align-items-start gap-4">
 
-  .timeline-item {
-    position: relative;
-    margin-bottom: 40px;
-  }
+      <!-- Decorative line -->
+      <div class="d-none d-md-block" style="width:5px; background-color:#0d6efd; border-radius:3px;"></div>
 
-  .timeline-icon {
-    position: absolute;
-    left: -67px;
-    top: 0;
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, #0d6efd, #0a58ca);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  }
+      <!-- Text Content -->
+      <div class="flex-grow-1">
+        <div class="text-center text-md-start">
+          <h2 class="fw-bold text-primary mb-3 text-center" style="font-size:2rem;">
+            F1 Can Help! Here’s How
+          </h2>
+        </div>
+        <p class="mb-3" style="font-size:1.1rem; line-height:1.8;">
+          At <strong>F1 InfoTech</strong>, our team manages end-to-end coordination with multiple vendors, streamlining communication
+and ensuring faster issue resolution. From troubleshooting hardware failures to managing multi-
+location IT setups, we provide uniform support backed by strong governance. With experience
+across 2,500+ client environments, F1 ensures your IT stays reliable and hassle-free—whether
+you operate from one office or across multiple regions.
+        </p>
+        
 
-  .timeline-content {
-    background: #fff;
-    
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    transition: all 0.3s ease-in-out;
-  }
+        <!-- Centered Button -->
+        
+      </div>
 
-  .timeline-content:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  }
+    </div>
+  </div>
+</div>
+<!-- Contact Us End -->
 
-  .timeline-content h5 {
-    margin-bottom: 5px;
-  }
 
-  .timeline-content p {
-    margin: 0;
-    color: #555;
-  }
-</style>
 
 <?php require("bot_getintouch.php"); ?>
 <?php require("bot_footer.php"); ?>

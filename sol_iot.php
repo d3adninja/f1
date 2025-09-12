@@ -109,51 +109,51 @@
   <div class="container">
     <div class="text-center mb-5">
       <h2 class="fw-bold">Who Can Benefit?</h2>
-      <p class="text-muted">Industries leveraging IoT for smarter operations</p>
+      <p class="text-muted">Industries and organizations that gain the most from Backup Solutions</p>
     </div>
 
-    <div class="timeline">
-      <!-- Step 1 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-industry"></i>
-        </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">Manufacturing & Industrial</h5>
-          <p class="small">For automation, predictive maintenance, and efficiency.</p>
+    <div class="row g-4">
+      <!-- Benefit 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-building"></i>
+          </div>
+          <h5 class="fw-bold">Retail &amp; Logistics</h5>
+          <p class="small">For smart inventory, supply chain tracking, and customer insights.</p>
         </div>
       </div>
 
-      <!-- Step 2 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-city"></i>
+      <!-- Benefit 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-university"></i>
+          </div>
+          <h5 class="fw-bold">Manufacturing &amp; Industrial</h5>
+          <p class="small">– For automation, predictive maintenance, and efficiency.</p>
         </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">Smart Cities & Government</h5>
+      </div>
+
+      <!-- Benefit 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-landmark"></i>
+          </div>
+          <h5 class="fw-bold">Smart Cities &amp; Government</h5>
           <p class="small">For citizen services, utilities, traffic, and surveillance.</p>
         </div>
       </div>
 
-      <!-- Step 3 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-hospital"></i>
-        </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">Healthcare & Education</h5>
-          <p class="small">For connected devices, patient monitoring, and e-learning.</p>
-        </div>
-      </div>
-
-      <!-- Step 4 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-truck"></i>
-        </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">Retail & Logistics</h5>
-          <p class="small">For smart inventory, supply chain tracking, and customer insights.</p>
+      <!-- Benefit 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-user-md"></i>
+          </div>
+          <h5 class="fw-bold">Healthcare &amp; Education</h5>
+          <p class="small">Needing fast, secure recovery to ensure continuity of services.</p>
         </div>
       </div>
     </div>
@@ -196,60 +196,10 @@
   }
 </style>
 
-<!-- Timeline CSS -->
-<style>
-  .timeline {
-    position: relative;
-    margin: 0 auto;
-    padding-left: 40px;
-    border-left: 3px solid #0d6efd;
-    max-width: 700px;
-  }
 
-  .timeline-item {
-    position: relative;
-    margin-bottom: 40px;
-  }
 
-  .timeline-icon {
-    position: absolute;
-    left: -67px;
-    top: 0;
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, #0d6efd, #0a58ca);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  }
-
-  .timeline-content {
-    background: #fff;
-    
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .timeline-content:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  }
-
-  .timeline-content h5 {
-    margin-bottom: 5px;
-  }
-
-  .timeline-content p {
-    margin: 0;
-    color: #555;
-  }
-</style>
 
 <?php require("bot_getintouch2.php"); ?>
+<?php require("bot_getintouch.php"); ?>
 <?php require("bot_footer.php"); ?>
+

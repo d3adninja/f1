@@ -105,6 +105,7 @@
 </div>
 
 <!-- Who Can Benefit Section -->
+<!-- Who Can Benefit Section -->
 <div class="container-fluid py-5" style="background: linear-gradient(135deg, #ffffff, #eef7ff);">
   <div class="container">
     <div class="text-center mb-5">
@@ -112,46 +113,46 @@
       <p class="text-muted">Industries and organizations that gain the most from Backup Solutions</p>
     </div>
 
-    <div class="timeline">
-      <!-- Step 1 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-building"></i>
-        </div>
-        <div class="timeline-content">
+    <div class="row g-4">
+      <!-- Benefit 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-building"></i>
+          </div>
           <h5 class="fw-bold">Enterprises</h5>
           <p class="small">Seeking reliable protection for growing data volumes.</p>
         </div>
       </div>
 
-      <!-- Step 2 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-university"></i>
-        </div>
-        <div class="timeline-content">
+      <!-- Benefit 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-university"></i>
+          </div>
           <h5 class="fw-bold">BFSI Institutions</h5>
           <p class="small">Require secure, compliant, and always-available backups.</p>
         </div>
       </div>
 
-      <!-- Step 3 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-landmark"></i>
-        </div>
-        <div class="timeline-content">
+      <!-- Benefit 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-landmark"></i>
+          </div>
           <h5 class="fw-bold">Government &amp; Public Sector</h5>
           <p class="small">Aiming to safeguard citizen and operational data.</p>
         </div>
       </div>
 
-      <!-- Step 4 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-user-md"></i>
-        </div>
-        <div class="timeline-content">
+      <!-- Benefit 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-user-md"></i>
+          </div>
           <h5 class="fw-bold">Healthcare &amp; Education</h5>
           <p class="small">Needing fast, secure recovery to ensure continuity of services.</p>
         </div>
@@ -196,61 +197,9 @@
   }
 </style>
 
-<!-- Timeline CSS -->
-<style>
-  .timeline {
-    position: relative;
-    margin: 0 auto;
-    padding-left: 40px;
-    border-left: 3px solid #0d6efd;
-    max-width: 700px;
-  }
 
-  .timeline-item {
-    position: relative;
-    margin-bottom: 40px;
-  }
-
-  .timeline-icon {
-    position: absolute;
-    left: -67px;
-    top: 0;
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, #0d6efd, #0a58ca);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  }
-
-  .timeline-content {
-    background: #fff;
-    
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    transition: all 0.3s ease-in-out;
-  }
-
-  .timeline-content:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  }
-
-  .timeline-content h5 {
-    margin-bottom: 5px;
-  }
-
-  .timeline-content p {
-    margin: 0;
-    color: #555;
-  }
-</style>
 
 
 <?php require("bot_getintouch2.php"); ?>
+<?php require("bot_getintouch.php"); ?>
 <?php require("bot_footer.php"); ?>

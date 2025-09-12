@@ -62,9 +62,24 @@
                 <p class="mb-4">
                     Learn how to avoid costly mistakes and ensure your cloud journey is secure and successful.
                 </p>
-                <a href="blogpage.php" class="btn btn-primary px-5 py-2">
-                    Read More <i class="fa fa-arrow-right ms-2"></i>
-                </a>
+                <style>
+                  .custom-outline-btn {
+  font-size: 1.1rem;
+  padding: 0.9rem 2rem;
+  border-radius: 50px;             /* more rounded */
+  border: 2px solid #0d6efd;       /* blue border */
+  background-color: transparent;   /* no background */
+  color: #0d6efd !important;       /* blue text */
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.custom-outline-btn:hover {
+  background-color: #0d6efd;  /* blue background on hover */
+  color: #fff !important;     /* white text on hover */
+}
+</style>
+                  <a class="btn custom-outline-btn px-5 py-3 me-2" href="blogpage.php">Read More</a>
             </div>
         </div>
     </div>

@@ -110,85 +110,42 @@
   <div class="container">
     <div class="text-center mb-5">
       <h2 class="fw-bold">Who Can Benefit?</h2>
-      <p class="text-muted">Organizations that gain the most from project automation</p>
+      <p class="text-muted">Industries and organizations that gain the most from Backup Solutions</p>
     </div>
 
-    <div class="timeline">
-      <!-- Step 1 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-laptop-code"></i>
-        </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">IT Service Providers</h5>
-          <p class="small">Organizations delivering complex software or technology projects.</p>
-        </div>
-      </div>
-
-      <!-- Step 2 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-building"></i>
-        </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">Enterprises Managing Large-Scale Projects</h5>
-          <p class="small">Companies with multiple teams and large project portfolios.</p>
+    <div class="row g-4 justify-content-center">
+      <!-- Benefit 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-building"></i>
+          </div>
+          <h5 class="fw-bold">IT service providers.</h5>
         </div>
       </div>
 
-      <!-- Step 3 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-university"></i>
+      <!-- Benefit 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-university"></i>
+          </div>
+          <h5 class="fw-bold">Enterprises managing large-scale projects.</h5>
         </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">Government & Public Sector Projects</h5>
-          <p class="small">Public sector projects requiring efficient management and reporting.</p>
+      </div>
+
+      <!-- Benefit 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-landmark"></i>
+          </div>
+          <h5 class="fw-bold">Government and public sector projects.</h5>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!-- Who Can Benefit End -->
-
-<!-- F1 Can Help You Section -->
-<div class="container-fluid py-5" style="background: linear-gradient(135deg, #ffffff, #eef7ff);">
-  <div class="container text-center">
-    <h2 class="fw-bold mb-4 display-5 text-primary">F1 Can Help You!</h2>
-    <div class="help-card mx-auto p-4 p-md-5">
-      <p class="lead mb-0 text-dark">
-        Our <span class="fw-bold text-primary">project automation services</span> help 
-        <span class="fw-bold text-primary">enterprises, government agencies, and service providers</span> 
-        accelerate delivery while reducing costs. We implement 
-        <span class="fw-bold text-primary">smart tools</span> that align with your existing systems, 
-        ensuring better control over timelines, budgets, and quality. <br><br>
-        The result is <span class="fw-bold text-primary">faster execution, reduced risk, and higher success rates</span> 
-        in projects of all scales.
-      </p>
-    </div>
-  </div>
-</div>
-
-<!-- Custom CSS -->
-<style>
-  .help-card {
-    max-width: 800px;
-    background: #ffffff;
-    border-radius: 20px;
-    border: 1px solid #e6e6e6;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    transition: all 0.3s ease-in-out;
-  }
-  .help-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
-  }
-</style>
-
-
-
-
-
 
 
 
@@ -227,60 +184,39 @@
   }
 </style>
 
-<!-- Timeline CSS -->
-<style>
-  .timeline {
-    position: relative;
-    margin: 0 auto;
-    padding-left: 40px;
-    border-left: 3px solid #0d6efd;
-    max-width: 700px;
-  }
+<!-- Contact Us Start -->
+<div class="container" style="max-width:1200px; margin:5rem auto;">
+  <div class="card shadow-sm border-0 rounded-3 bg-light mb-5">
+    <div class="card-body p-5 d-flex flex-column flex-md-row align-items-start gap-4">
 
-  .timeline-item {
-    position: relative;
-    margin-bottom: 40px;
-  }
+      <!-- Decorative line -->
+      <div class="d-none d-md-block" style="width:5px; background-color:#0d6efd; border-radius:3px;"></div>
 
-  .timeline-icon {
-    position: absolute;
-    left: -67px;
-    top: 0;
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, #0d6efd, #0a58ca);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  }
+      <!-- Text Content -->
+      <div class="flex-grow-1">
+        <div class="text-center text-md-start">
+          <h2 class="fw-bold text-primary mb-3 text-center" style="font-size:2rem;">
+            F1 Can Help! Here’s How
+          </h2>
+        </div>
+        <p class="mb-3" style="font-size:1.1rem; line-height:1.8;">
+          At <strong>F1 InfoTech</strong>, our project automation services help enterprises, government agencies, and service providers
+accelerate delivery while reducing costs. We implement smart tools that align with your existing
+systems, ensuring better control over timelines, budgets, and quality. The result is faster
+execution, reduced risk, and higher success rates in projects of all scales.
+        </p>
+        
 
-  .timeline-content {
-    background: #fff;
-    
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    transition: all 0.3s ease-in-out;
-  }
+        <!-- Centered Button -->
+        
+      </div>
 
-  .timeline-content:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  }
+    </div>
+  </div>
+</div>
+<!-- Contact Us End -->
 
-  .timeline-content h5 {
-    margin-bottom: 5px;
-  }
 
-  .timeline-content p {
-    margin: 0;
-    color: #555;
-  }
-</style>
 
 <?php require("bot_getintouch.php"); ?>
 <?php require("bot_footer.php"); ?>

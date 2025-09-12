@@ -143,9 +143,25 @@
           Be a part of F1 Infotech’s journey to drive digital transformation across industries. 
           Explore opportunities and build your future with us.
         </p>
-        <a href="contact.php" class="btn btn-primary px-5 py-2">
-          Explore Opportunities <i class="fa fa-arrow-right ms-2"></i>
-        </a>
+        <style>
+                  .custom-outline-btn {
+  font-size: 1.1rem;
+  padding: 0.9rem 2rem;
+  border-radius: 50px;             /* more rounded */
+  border: 2px solid #0d6efd;       /* blue border */
+  background-color: transparent;   /* no background */
+  color: #0d6efd !important;       /* blue text */
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.custom-outline-btn:hover {
+  background-color: #0d6efd;  /* blue background on hover */
+  color: #fff !important;     /* white text on hover */
+}
+</style>
+                  <a class="btn custom-outline-btn px-5 py-3 me-2" href="#.php">Explore Opportunities</a>
+        
       </div>
 
       <!-- Right: Background Image -->

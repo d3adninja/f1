@@ -12,7 +12,7 @@
           <span class="text-primary">IT Landscapes</span>
         </h1>
         <h5
-          class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slideInRight">
+class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slideInRight">
           From virtualization to migration — we design, deploy, and manage
           technology that works for your business.
         </h5>
@@ -22,7 +22,6 @@
           <img class="img-fluid" src="img/c3.jpg" alt="" />
           <img class="img-fluid" src="img/c1.jpg" alt="" />
           <img class="img-fluid" src="img/c2.jpg" alt="" />
-
         </div>
       </div>
     </div>
@@ -67,76 +66,65 @@
 <!-- Hero End -->
 
 
-<!-- Intro Text Section Start -->
-
-
-
+<!--  Technology is central to everything we do-->
+<!--  Technology is central to everything we do-->
 
 <div class="container-fluid my-6 py-6 bg">
   <div class="container text-center">
     <br><br>
-    <h1 class="display-4 fw-bold mb-4">
+    <h1 class="display-4 fw-bold mb-4 custom-heading">
       Technology is central to everything we do, and
       <span class="text-primary">F1 is thriving</span>
     </h1>
-    <br>
-    <br>
+    <br><br>
 
-
-    <p class="lead mb-5 px-lg-5">
+    <p class="lead mb-5 px-lg-5 custom-text">
       We offer a comprehensive suite of IT solutions designed to simplify complexity, enhance security,
       and drive operational excellence. From cloud and infrastructure to cybersecurity and managed services,
       our offerings are built to support digital transformation across industries.
     </p>
 
-    <br>
-    <br>
+    <br><br>
 
-
-    <!-- Cards Row Start
-    <div class="row justify-content-center mb-5">
-      <div class="col-6 col-md-2">
-        <div class="card shadow-sm text-center d-flex flex-column justify-content-center" style="height: 150px;">
-          <h3 class="fw-bold text-primary mb-2"></h3>
-          <p class="mb-0 small">Industry & OEM Awards</p>
-        </div>
-      </div>
-      <div class="col-6 col-md-2">
-        <div class="card shadow-sm text-center d-flex flex-column justify-content-center" style="height: 150px;">
-          <h3 class="fw-bold text-primary mb-2"></h3>
-          <p class="mb-0 small">Years of Proven Expertise</p>
-        </div>
-      </div>
-      <div class="col-6 col-md-2">
-        <div class="card shadow-sm text-center d-flex flex-column justify-content-center" style="height: 150px;">
-          <h3 class="fw-bold text-primary mb-2"></h3>
-          <p class="mb-0 small">"Global Customers"</p>
-        </div>
-      </div>
-      <div class="col-6 col-md-2">
-        <div class="card shadow-sm text-center d-flex flex-column justify-content-center" style="height: 150px;">
-          <h3 class="fw-bold text-primary mb-2"></h3>
-          <p class="mb-0 small">Skilled Professionals</p>
-        </div>
-      </div>
-      <div class="col-6 col-md-2">
-        <div class="card shadow-sm text-center d-flex flex-column justify-content-center" style="height: 150px;">
-          <h3 class="fw-bold text-primary mb-2"></h3>
-          <p class="mb-0 small">Customer Retention Rate</p>
-        </div>
-      </div>
-    </div> -->
-    <!-- Cards Row End -->
-
-       <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-4">
-      <a href="solutions.php" class="btn btn-primary btn-lg px-4 py-2">Explore Our Solutions</a>
-      <a href="feature.php" class="btn btn-outline-primary btn-lg px-4 py-2">About the Company</a>
+    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3 mt-4">
+      <a href="solutions.php" class="btn custom-btn btn-lg px-4 py-2">Explore Our Solutions</a>
+      <a href="feature.php" class="btn custom-btn btn-lg px-4 py-2">About the Company</a>
     </div>
-    <br>
-    <br>
+    <br><br>
   </div>
 </div>
 <!-- Intro Text Section End -->
+
+<style>
+  /* Bigger heading */
+  .custom-heading {
+    font-size: 4rem; /* Larger than Bootstrap’s display-4 */
+    line-height: 1.3;
+  }
+
+  /* Bigger paragraph */
+  .custom-text {
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+
+  /* Outlined button style */
+  .custom-btn {
+    font-size: 1.1rem;
+    padding: 0.8rem 2rem;
+    border-radius: 50px; /* Rounded pill shape */
+    border: 2px solid #0d6efd;
+    background-color: transparent !important;
+    color: #0d6efd !important;
+    transition: all 0.3s ease;
+  }
+
+  .custom-btn:hover {
+    background-color: #0d6efd !important;
+    color: #fff !important;
+  }
+</style>
+
 
 
 
@@ -144,7 +132,7 @@
 <!-- Feature Start -->
 <div class="container-fluid py-5" style="background-color: #cddfed;">
   <div class="container">
-    <div class="text-center mb-5">
+    <div class="text-center mb-5 sol-heading">
       <h1>
         Explore Solutions
         <span class="text-uppercase text-primary bg-white px-2">
@@ -156,52 +144,64 @@
     <div class="row g-4">
       <!-- Card 1 -->
       <div class="col-12 col-sm-6 col-md-3">
-        <a href="sol_virtualization.php" class="text-decoration-none text-dark">
-          <div class="card feature-card h-100 text-center p-4">
-            <i class="fa fa-server fa-3x text-primary mb-3"></i>
-            <h5 class="fw-bold">Virtualization</h5>
-            <p class="mb-0 small">
-              Latest breakthroughs in AI and cloud technologies.
-            </p>
+        <a href="sol_virtualization.php" class="text-decoration-none">
+          <div class="card sol-card text-center">
+            <div class="sol-overlay"></div>
+            <div class="sol-content">
+              <i class="fa fa-server fa-3x mb-3"></i>
+              <h5 class="fw-bold">Virtualization</h5>
+              <p class="mb-0 small">
+                Latest breakthroughs in AI and cloud technologies.
+              </p>
+            </div>
           </div>
         </a>
       </div>
 
       <!-- Card 2 -->
       <div class="col-12 col-sm-6 col-md-3">
-        <a href="sol_network.php" class="text-decoration-none text-dark">
-          <div class="card feature-card h-100 text-center p-4">
-            <i class="fa fa-network-wired fa-3x text-primary mb-3"></i>
-            <h5 class="fw-bold">Network &amp; Surveillance</h5>
-            <p class="mb-0 small">
-              Secure, reliable, and intelligent connectivity for a safer tomorrow.
-            </p>
+        <a href="sol_network.php" class="text-decoration-none">
+          <div class="card sol-card text-center">
+            <div class="sol-overlay"></div>
+            <div class="sol-content">
+              <i class="fa fa-network-wired fa-3x mb-3"></i>
+              <h5 class="fw-bold">Network &amp; Surveillance</h5>
+              <p class="mb-0 small">
+                Secure, reliable, and intelligent connectivity for a safer tomorrow.
+              </p>
+            </div>
           </div>
         </a>
       </div>
 
       <!-- Card 3 -->
       <div class="col-12 col-sm-6 col-md-3">
-        <a href="sol_security.php" class="text-decoration-none text-dark">
-          <div class="card feature-card h-100 text-center p-4">
-            <i class="fa fa-lock fa-3x text-primary mb-3"></i>
-            <h5 class="fw-bold">Security</h5>
-            <p class="mb-0 small">
-              Shielding your data, powering your future.
-            </p>
+        <a href="sol_security.php" class="text-decoration-none">
+          <div class="card sol-card text-center">
+            <div class="sol-overlay"></div>
+            <div class="sol-content">
+              <i class="fa fa-lock fa-3x mb-3"></i>
+              <h5 class="fw-bold">Security</h5>
+              <p class="mb-0 small">
+                Shielding your data, powering your future.
+              </p>
+            </div>
           </div>
         </a>
       </div>
 
       <!-- Card 4 -->
       <div class="col-12 col-sm-6 col-md-3">
-        <a href="sol_devndep.php" class="text-decoration-none text-dark">
-          <div class="card feature-card h-100 text-center p-4">
-            <i class="fa fa-code fa-3x text-primary mb-3"></i>
-            <h5 class="fw-bold">Software Development &amp; Deployment</h5>
-            <p class="mb-0 small">
-              Turning your ideas into scalable, reliable, and secure software.
-            </p>
+        <a href="sol_devndep.php" class="text-decoration-none">
+          <div class="card sol-card text-center">
+            <div class="sol-overlay"></div>
+            <div class="sol-content">
+              <i class="fa fa-code fa-3x mb-3"></i>
+              <h5 class="fw-bold">Software Development &amp; Deployment</h5>
+              <p class="mb-0 small">
+                Turning your ideas into scalable, reliable, and secure software.
+              </p>
+            </div>
           </div>
         </a>
       </div>
@@ -209,7 +209,7 @@
 
     <!-- Button -->
     <div class="text-center mt-5">
-      <a href="solutions.php" class="btn btn-primary px-4 py-2">
+      <a href="solutions.php" class="btn sol-btn px-4 py-2">
         Explore our Solutions
       </a>
     </div>
@@ -217,8 +217,99 @@
 </div>
 <!-- Feature End -->
 
+<style>
+/* Card styling */
+.sol-card {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  min-height: 350px; /* Make cards taller */
+}
+
+/* Background images (local) */
+.row > div:nth-child(1) .sol-card {
+  background-image: url('img/virtualization.jpg');
+}
+.row > div:nth-child(2) .sol-card {
+  background-image: url('img/last.jpg');
+}
+.row > div:nth-child(3) .sol-card {
+  background-image: url('img/deploy6.jpg');
+}
+.row > div:nth-child(4) .sol-card {
+  background-image: url('img/deploy7.webp');
+}
+
+/* Dark overlay */
+.sol-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Text + Icon overlay */
+.sol-content {
+  position: relative;
+  z-index: 2;
+  padding: 25px;
+}
+
+.sol-content i {
+  color: #0d6efd;
+  font-size: 3.2rem; /* Bigger icons */
+}
+
+.sol-content h5 {
+  color: #fff !important;
+  font-size: 1.4rem; /* Bigger heading */
+  margin-bottom: 10px;
+}
+
+.sol-content p {
+  font-size: 1rem; /* Slightly bigger body text */
+  line-height: 1.6;
+}
+
+/* Hover effect */
+.sol-card:hover {
+  transform: translateY(-12px);
+}
+
+/* Custom button style */
+.sol-btn {
+  font-size: 1.1rem;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  border: 2px solid #0d6efd;
+  background-color: transparent !important;
+  color: #0d6efd !important;
+  transition: all 0.3s ease;
+}
+.sol-btn:hover {
+  background-color: #0d6efd !important;
+  color: #fff !important;
+}
+
+/* Section heading */
+.sol-heading h1 {
+  font-size: 2.5rem; /* Bigger heading above cards */
+  font-weight: 700;
+}
+</style>
 
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
@@ -226,9 +317,10 @@
 
 <!-- Services -->
 
+<!-- Services Start -->
 <div class="container-fluid py-5" style="background-color: #cddfed;">
   <div class="container">
-    <div class="text-center mb-5">
+    <div class="text-center mb-5 sol-heading">
       <h1>
         Explore Services
         <span class="text-uppercase text-primary bg-white px-2">
@@ -236,115 +328,83 @@
         </span>
       </h1>
     </div>
-    <div class="row g-4">
 
-      <!-- Card 1 --->
-       <div class="col-12 col-sm-6 col-md-3">
-        <a href="ser_amc.php" class="text-decoration-none text-dark">
-          <div class="card feature-card h-100 text-center p-4">
-            <i class="fa fa-tools fa-3x text-primary mb-3"></i>
-            <h5 class="fw-bold">AMC Services</h5>
-            <p class="mb-0 small">
-              Reliable IT upkeep, so your business never slows down.
-            </p>
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-12 col-sm-6 col-md-3">
+        <a href="ser_amc.php" class="text-decoration-none">
+          <div class="card sol-card text-center">
+            <div class="sol-overlay"></div>
+            <div class="sol-content">
+              <i class="fa fa-tools fa-3x mb-3"></i>
+              <h5 class="fw-bold">AMC Services</h5>
+              <p class="mb-0 small">
+                Reliable IT upkeep, so your business never slows down.
+              </p>
+            </div>
           </div>
         </a>
       </div>
 
       <!-- Card 2 -->
       <div class="col-12 col-sm-6 col-md-3">
-        <a href="ser_manserv.php" class="text-decoration-none text-dark">
-          <div class="card feature-card h-100 text-center p-4">
-            <i class="fa fa-cogs fa-3x text-primary mb-3"></i>
-            <h5 class="fw-bold">Managed Services</h5>
-            <p class="mb-0 small">
-              Simplify IT. Focus on growth—we’ll handle the rest.
-            </p>
+        <a href="ser_manserv.php" class="text-decoration-none">
+          <div class="card sol-card text-center">
+            <div class="sol-overlay"></div>
+            <div class="sol-content">
+              <i class="fa fa-cogs fa-3x mb-3"></i>
+              <h5 class="fw-bold">Managed Services</h5>
+              <p class="mb-0 small">
+                Simplify IT. Focus on growth—we’ll handle the rest.
+              </p>
+            </div>
           </div>
         </a>
       </div>
 
       <!-- Card 3 -->
       <div class="col-12 col-sm-6 col-md-3">
-        <a href="ser_techstaff.php" class="text-decoration-none text-dark">
-          <div class="card feature-card h-100 text-center p-4">
-            <i class="fa fa-users fa-3x text-primary mb-3"></i>
-            <h5 class="fw-bold">Technology Staffing</h5>
-            <p class="mb-0 small">
-              The right talent, when you need it.
-            </p>
+        <a href="ser_techstaff.php" class="text-decoration-none">
+          <div class="card sol-card text-center">
+            <div class="sol-overlay"></div>
+            <div class="sol-content">
+              <i class="fa fa-users fa-3x mb-3"></i>
+              <h5 class="fw-bold">Technology Staffing</h5>
+              <p class="mb-0 small">
+                The right talent, when you need it.
+              </p>
+            </div>
           </div>
         </a>
       </div>
 
       <!-- Card 4 -->
       <div class="col-12 col-sm-6 col-md-3">
-        <a href="ser_processauto.php" class="text-decoration-none text-dark">
-          <div class="card feature-card h-100 text-center p-4">
-            <i class="fa fa-robot fa-3x text-primary mb-3"></i>
-            <h5 class="fw-bold">Process Automation</h5>
-            <p class="mb-0 small">
-              Automate routine tasks, accelerate business outcomes.
-            </p>
+        <a href="ser_processauto.php" class="text-decoration-none">
+          <div class="card sol-card text-center">
+            <div class="sol-overlay"></div>
+            <div class="sol-content">
+              <i class="fa fa-robot fa-3x mb-3"></i>
+              <h5 class="fw-bold">Process Automation</h5>
+              <p class="mb-0 small">
+                Automate routine tasks, accelerate business outcomes.
+              </p>
+            </div>
           </div>
         </a>
       </div>
+    </div>
 
-
-      <!-- Card 5 -->
-      <!-- <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-cubes fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Converged &amp; Hyperconverged Infrastructure</h5>
-          <p class="mb-0 small">
-            Simplify, accelerate, and scale your IT with next-gen infrastructure.
-          </p>
-        </div>
-      </div>
-
-
-      <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-wifi fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Internet of Things</h5>
-          <p class="mb-0 small">
-            Connecting devices, creating possibilities.
-          </p>
-        </div>
-      </div>
-
-  
-      <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-database fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Backup</h5>
-          <p class="mb-0 small">
-            Because business continuity starts with backup!
-          </p>
-        </div>
-      </div>
-
-
-      <div class="col-6 col-md-3">
-        <div class="card feature-card h-100 text-center p-4">
-          <i class="fa fa-cloud fa-3x text-primary mb-3"></i>
-          <h5 class="fw-bold">Cloud Services</h5>
-          <p class="mb-0 small">
-            Flexible, scalable, and secure cloud solutions for your business.
-          </p>
-        </div>
-      </div> -->
-      <br>
-      <br>
-      <div class="text-center mt-5">
-        <a href="services.php" class="btn btn-primary px-4 py-2">
-          Explore our Services
-        </a>
-      </div>
-
+    <!-- Button -->
+    <div class="text-center mt-5">
+      <a href="services.php" class="btn sol-btn px-4 py-2">
+        Explore our Services
+      </a>
     </div>
   </div>
 </div>
+<!-- Services End -->
+
 
 <style>
   .btn-primary {
@@ -432,7 +492,7 @@
                     F1 InfoTech hosts “Innovate and Migrate” roundtable in
                     partnership with Nutanix – July 2025
                   </p>
-                  <a class="btn btn-primary px-4 me-2" href="">View More</a>
+                 <a class="btn custom-outline-btn px-5 py-3 me-2" href="events.php">View More</a>
                 </div>
               </div>
             </div>
@@ -452,7 +512,7 @@
                     Celebrating success while prepping for the year ahead –
                     May 2025
                   </p>
-                  <a class="btn btn-primary px-4 me-2" href="">View More</a>
+                  <a class="btn custom-outline-btn px-5 py-3 me-2" href="events.php">View More</a>
                 </div>
               </div>
             </div>
@@ -472,7 +532,25 @@
                     Showcasing cutting-edge innovations and real-world
                     solutions at India’s top IT conference – March 2025
                   </p>
-                  <a class="btn btn-primary px-4 me-2" href="">View More</a>
+                  <style>
+                  .custom-outline-btn {
+  font-size: 1.1rem;
+  padding: 0.9rem 2rem;
+  border-radius: 50px;             /* more rounded */
+  border: 2px solid #0d6efd;       /* blue border */
+  background-color: transparent;   /* no background */
+  color: #0d6efd !important;       /* blue text */
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.custom-outline-btn:hover {
+  background-color: #0d6efd;  /* blue background on hover */
+  color: #fff !important;     /* white text on hover */
+}
+</style>
+                  <a class="btn custom-outline-btn px-5 py-3 me-2" href="events.php">View More</a>
+                  
                 </div>
               </div>
             </div>

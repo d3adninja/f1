@@ -115,92 +115,56 @@
   <div class="container">
     <div class="text-center mb-5">
       <h2 class="fw-bold">Who Can Benefit?</h2>
-      <p class="text-muted">Industries and organizations leveraging AMC services</p>
+      <p class="text-muted">Industries and organizations that gain the most from Backup Solutions</p>
     </div>
 
-    <div class="timeline">
-      <!-- Step 1 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-industry"></i>
-        </div>
-        <div class="timeline-content">
+    <div class="row g-4">
+      <!-- Benefit 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-building"></i>
+          </div>
           <h5 class="fw-bold">Enterprises</h5>
-          <p class="small">Managing large-scale IT infrastructure with mission-critical systems.</p>
+          <p class="small">Enterprises with large IT infrastructure.</p>
         </div>
       </div>
 
-      <!-- Step 2 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-briefcase"></i>
-        </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">SMBs</h5>
-          <p class="small">Seeking cost-effective IT maintenance to support growth.</p>
-        </div>
-      </div>
-
-      <!-- Step 3 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-landmark"></i>
-        </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">Public Sector & Government</h5>
-          <p class="small">Ensuring reliable IT systems for critical services and citizen data.</p>
+      <!-- Benefit 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-university"></i>
+          </div>
+          <h5 class="fw-bold">Banks</h5>
+          <p class="small">SMBs looking for cost-effective maintenance.</p>
         </div>
       </div>
 
-      <!-- Step 4 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-university"></i>
+      <!-- Benefit 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-landmark"></i>
+          </div>
+          <h5 class="fw-bold">Government &amp; Public Sector</h5>
+          <p class="small">Public sector and government institutions.</p>
         </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">BFSI, Healthcare & Education</h5>
-          <p class="small">Needing resilient, always-available IT systems for operations.</p>
+      </div>
+
+      <!-- Benefit 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-user-md"></i>
+          </div>
+          <h5 class="fw-bold">Industries</h5>
+          <p class="small">Industries like BFSI, healthcare, and education.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!-- Who Can Benefit End -->
-
-
-<!-- F1 Can Help You Section -->
-<div class="container-fluid py-5" style="background: linear-gradient(135deg, #ffffff, #eef7ff);">
-  <div class="container text-center">
-    <h2 class="fw-bold mb-4 display-5 text-primary">F1 Can Help You!</h2>
-    <div class="help-card mx-auto p-4 p-md-5">
-      <p class="lead mb-0 text-dark">
-        F1 provides <span class="fw-bold text-primary">preventive, corrective, and predictive</span> 
-        maintenance for diverse IT environments. Our AMC offerings cover hardware, software, and hybrid infrastructures, 
-        with 24/7 monitoring, SLA-backed support, and vendor coordination. <br><br>
-        This means <span class="fw-bold text-primary">less downtime, fewer unexpected costs, and complete peace of mind</span> —
-        allowing your teams to focus on business growth while we handle the technology.
-      </p>
-    </div>
-  </div>
-</div>
-
-<!-- Custom CSS -->
-<style>
-  .help-card {
-    max-width: 800px;
-    background: #ffffff;
-    border-radius: 20px;
-    border: 1px solid #e6e6e6;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-    transition: all 0.3s ease-in-out;
-  }
-  .help-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
-  }
-</style>
-
-
 
 
 <!-- Custom CSS for Challenges -->
@@ -238,60 +202,40 @@
   }
 </style>
 
-<!-- Timeline CSS -->
-<style>
-  .timeline {
-    position: relative;
-    margin: 0 auto;
-    padding-left: 40px;
-    border-left: 3px solid #0d6efd;
-    max-width: 700px;
-  }
+<!-- Contact Us Start -->
+<div class="container" style="max-width:1200px; margin:5rem auto;">
+  <div class="card shadow-sm border-0 rounded-3 bg-light mb-5">
+    <div class="card-body p-5 d-flex flex-column flex-md-row align-items-start gap-4">
 
-  .timeline-item {
-    position: relative;
-    margin-bottom: 40px;
-  }
+      <!-- Decorative line -->
+      <div class="d-none d-md-block" style="width:5px; background-color:#0d6efd; border-radius:3px;"></div>
 
-  .timeline-icon {
-    position: absolute;
-    left: -67px;
-    top: 0;
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, #0d6efd, #0a58ca);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  }
+      <!-- Text Content -->
+      <div class="flex-grow-1">
+        <div class="text-center text-md-start">
+          <h2 class="fw-bold text-primary mb-3 text-center" style="font-size:2rem;">
+            F1 Can Help! Here’s How
+          </h2>
+        </div>
+        <p class="mb-3" style="font-size:1.1rem; line-height:1.8;">
+          At <strong>F1 InfoTech</strong>, we provides preventive, corrective, and predictive maintenance for diverse IT environments. Our
+AMC offerings cover hardware, software, and hybrid infrastructures, with 24/7 monitoring, SLA-
+backed support, and vendor coordination. This means less downtime, fewer unexpected costs,
+and complete peace of mind—allowing your teams to focus on business growth while we handle
+the technology.
+        </p>
+       
 
-  .timeline-content {
-    background: #fff;
-    
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    transition: all 0.3s ease-in-out;
-  }
+        <!-- Centered Button -->
+        
+      </div>
 
-  .timeline-content:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  }
+    </div>
+  </div>
+</div>
+<!-- Contact Us End -->
 
-  .timeline-content h5 {
-    margin-bottom: 5px;
-  }
 
-  .timeline-content p {
-    margin: 0;
-    color: #555;
-  }
-</style>
 
 <?php require("bot_getintouch.php"); ?>
 <?php require("bot_footer.php"); ?>

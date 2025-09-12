@@ -155,112 +155,96 @@
   <div class="container">
     <div class="text-center mb-5">
       <h2 class="fw-bold">Who Can Benefit?</h2>
-      <p class="text-muted">Industries and organizations that gain the most from Virtualization</p>
+      <p class="text-muted">Industries and organizations that gain the most from Backup Solutions</p>
     </div>
 
-    <div class="timeline">
-      <!-- Step 1 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-building"></i>
-        </div>
-        <div class="timeline-content">
+    <div class="row g-4">
+      <!-- Benefit 1 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-building"></i>
+          </div>
           <h5 class="fw-bold">Enterprises</h5>
-          <p class="small">With large IT infrastructure.</p>
+          <p class="small">Seeking reliable protection for growing data volumes.</p>
         </div>
       </div>
 
-      <!-- Step 2 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-briefcase"></i>
-        </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">SMBs</h5>
-          <p class="small">Looking for cost-effective maintenance.</p>
-        </div>
-      </div>
-
-      <!-- Step 3 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-landmark"></i>
-        </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">Public Sector &amp; Government</h5>
-          <p class="small">Institutions requiring scalable infrastructures.</p>
+      <!-- Benefit 2 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-university"></i>
+          </div>
+          <h5 class="fw-bold">Banks &amp; Financial Institutions</h5>
+          <p class="small">Require secure, compliant, and always-available backups.</p>
         </div>
       </div>
 
-      <!-- Step 4 -->
-      <div class="timeline-item">
-        <div class="timeline-icon">
-          <i class="fa fa-industry"></i>
+      <!-- Benefit 3 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-landmark"></i>
+          </div>
+          <h5 class="fw-bold">Government &amp; Public Sector</h5>
+          <p class="small">Aiming to safeguard citizen and operational data.</p>
         </div>
-        <div class="timeline-content">
-          <h5 class="fw-bold">BFSI, Healthcare &amp; Education</h5>
-          <p class="small">Industries requiring agility, compliance, and remote access.</p>
+      </div>
+
+      <!-- Benefit 4 -->
+      <div class="col-md-6 col-lg-3">
+        <div class="challenge-card h-100 text-center p-4">
+          <div class="challenge-icon mb-3">
+            <i class="fa fa-user-md"></i>
+          </div>
+          <h5 class="fw-bold">Healthcare &amp; Education</h5>
+          <p class="small">Needing fast, secure recovery to ensure continuity of services.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- Timeline CSS -->
+
+<!-- Custom CSS for Challenges -->
 <style>
-  .timeline {
+  .challenge-card {
+    background: #fff;
+    border-radius: 16px;
+    transition: all 0.3s ease-in-out;
     position: relative;
-    margin: 0 auto;
-    padding-left: 40px;
-    border-left: 3px solid #0d6efd;
-    max-width: 700px;
+    overflow: hidden;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   }
-
-  .timeline-item {
-    position: relative;
-    margin-bottom: 40px;
+  .challenge-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    border-color: #0d6efd;
   }
-
-  .timeline-icon {
-    position: absolute;
-    left: -67px;
-    top: 0;
-    width: 50px;
-    height: 50px;
-    background: linear-gradient(135deg, #0d6efd, #0a58ca);
+  .challenge-icon {
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #0d6efd, #0a58ca);
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-size: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  }
-
-  .timeline-content {
-    background: #fff;
-    
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    font-size: 28px;
     transition: all 0.3s ease-in-out;
   }
-
-  .timeline-content:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-  }
-
-  .timeline-content h5 {
-    margin-bottom: 5px;
-  }
-
-  .timeline-content p {
-    margin: 0;
-    color: #555;
+  .challenge-card:hover .challenge-icon {
+    background: linear-gradient(135deg, #0a58ca, #084298);
+    transform: rotate(10deg) scale(1.1);
   }
 </style>
 
 
+
+
 <?php require("bot_getintouch2.php"); ?>
+<?php require("bot_getintouch.php"); ?>
 <?php require("bot_footer.php"); ?>
