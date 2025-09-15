@@ -6,9 +6,9 @@
     <div class="container-fluid pb-5 bg-primary hero-header">
         <div class="container py-5">
             <div class="row g-3 align-items-center">
-                <div class="col-lg-6 text-center text-lg-start">
-                    <h1 class="display-1 mb-0 animated slideInLeft">About the Company</h1>
-                </div>
+                 <div class="col-lg-6 text-center text-lg-start">
+                <h1 class="display-1 mb-0 animated slideInLeft text-nowrap">About the Company</h1>
+            </div>
                 <div class="col-lg-6 animated slideInRight">
                   <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center justify-content-lg-end mb-0">
@@ -29,7 +29,7 @@
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-6">
-            <div class="row">
+            <div class="row g-0">
               <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
                 <img class="img-fluid" src="img/ourstory8.jpg " alt="" />
               </div>
@@ -362,24 +362,36 @@
                 <p class="mb-4">
                   To be the most trusted partner for enterprises by delivering secure, scalable, and future-ready IT solutions that accelerate digital transformation.</p><br>
   
-                <style>
-                  .custom-outline-btn {
-  font-size: 1.1rem;
-  padding: 0.9rem 2rem;
-  border-radius: 50px;             /* more rounded */
-  border: 2px solid #0d6efd;       /* blue border */
-  background-color: transparent;   /* no background */
-  color: #0d6efd !important;       /* blue text */
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
+<style>
+  .custom-outline-btn {
+    font-size: 1rem;
+    padding: 0.35rem 1.2rem;     /* slimmer padding */
+    border-radius: 50px;         /* rounded pill shape */
+    border: 2px solid #0d6efd;   /* blue border */
+    background-color: transparent;
+    color: #0d6efd !important;   /* blue text */
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;       /* only as wide as content */
+  }
 
-.custom-outline-btn:hover {
-  background-color: #0d6efd;  /* blue background on hover */
-  color: #fff !important;     /* white text on hover */
-}
+  .custom-outline-btn:hover {
+    background-color: #0d6efd;   /* blue background on hover */
+    color: #fff !important;      /* white text on hover */
+  }
+
+  /* center the button inside its card */
+  .btn-wrapper {
+    
+    margin-top: auto;            /* pushes button to bottom if needed */
+  }
 </style>
-                  <a class="btn custom-outline-btn px-5 py-3 me-2" href="events.php">Read More</a>
+
+
+</style>
+                 <div class="btn-wrapper">
+  <a class="btn custom-outline-btn" href="events.php">Read More</a>
+</div>
               </div>
             </div>
           </div>
@@ -396,7 +408,9 @@
                 <p class="mb-4">
                   Our mission is to discover each client’s unique challenges, design innovative and tailored IT solutions, deploy them with speed, security, and efficiency, and build long-lasting partnerships that deliver measurable business value.</p>
    
-                <a class="btn custom-outline-btn px-5 py-3 me-2" href="events.php">Read More</a>
+                <div class="btn-wrapper">
+  <a class="btn custom-outline-btn" href="events.php">Read More</a>
+</div>
               </div>
             </div>
           </div>
@@ -427,7 +441,7 @@
       <!-- Discover -->
       <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
         <div class="service-item h-100 d-flex flex-column align-items-center bg-primary text-center p-4 rounded-3 shadow">
-          <img class="img-fluid mb-3" src="img/discover3.png" alt="Discover" />
+          <img class="img-fluid mb-3" src="img/discover4.png" alt="Discover" />
           <h3 class="mb-2">Discover</h3>
           <p>Identify goals, problems and gather detailed requirements.</p>
         </div>
@@ -442,23 +456,26 @@
         </div>
       </div>
 
-      <!-- Deploy -->
+      <!-- Retain -->
       <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-        <div class="service-item h-100 d-flex flex-column align-items-center bg-light text-center p-4 rounded-3 shadow">
-          <img class="img-fluid mb-3" src="img/deploy4.png" alt="Deploy" />
+        <div class="service-item h-100 d-flex flex-column align-items-center bg-primary text-center p-4 rounded-3 shadow">
+          <img class="img-fluid mb-3" src="img/retain3.png" alt="Retain" />
+          
           <h3 class="mb-2">Deploy</h3>
           <p>Build, test, and deploy scalable solutions with precision.</p>
         </div>
       </div>
 
-      <!-- Retain -->
+      <!-- Deploy -->
       <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.6s">
-        <div class="service-item h-100 d-flex flex-column align-items-center bg-primary text-center p-4 rounded-3 shadow">
-          <img class="img-fluid mb-3" src="img/retain3.png" alt="Retain" />
+        <div class="service-item h-100 d-flex flex-column align-items-center bg-light text-center p-4 rounded-3 shadow">
+          <img class="img-fluid mb-3" src="img/deploy4.png" alt="Deploy" />
           <h3 class="mb-2">Retain</h3>
           <p>Monitor, support, and continuously evolve solutions.</p>
         </div>
       </div>
+
+      
     </div>
   </div>
 </div>

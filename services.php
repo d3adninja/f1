@@ -35,18 +35,10 @@
     </div>
     <div class="row g-4">
 
-      <!-- Card 1 -->
-      <div class="col-12 col-sm-6 col-md-3">
-        <a href="ser_amc.php" class="text-decoration-none text-dark">
-          <div class="card feature-card h-100 text-center p-4">
-            <i class="fa fa-tools fa-3x text-primary mb-3"></i>
-            <h5 class="fw-bold">AMC Services</h5>
-            <p class="mb-0 small">Reliable IT upkeep, so your business never slows down.</p>
-          </div>
-        </a>
-      </div>
 
-      <!-- Card 2 -->
+
+
+     <!-- Card 2 -->
       <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_manserv.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
@@ -57,18 +49,7 @@
         </a>
       </div>
 
-      <!-- Card 3 -->
-      <div class="col-12 col-sm-6 col-md-3">
-        <a href="ser_techstaff.php" class="text-decoration-none text-dark">
-          <div class="card feature-card h-100 text-center p-4">
-            <i class="fa fa-users fa-3x text-primary mb-3"></i>
-            <h5 class="fw-bold">Technology Staffing</h5>
-            <p class="mb-0 small">The right talent, when you need it.</p>
-          </div>
-        </a>
-      </div>
-
-      <!-- Card 4 -->
+       <!-- Card 4 -->
       <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_processauto.php" class="text-decoration-none text-dark">
           <div class="card feature-card h-100 text-center p-4">
@@ -78,6 +59,9 @@
           </div>
         </a>
       </div>
+
+      
+     
 
       <!-- Card 5 -->
       <div class="col-12 col-sm-6 col-md-3">
@@ -122,6 +106,32 @@
           </div>
         </a>
       </div>
+
+
+      <!-- Card 1 -->
+      <div class="col-12 col-sm-6 col-md-3">
+        <a href="ser_amc.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-tools fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">AMC Services</h5>
+            <p class="mb-0 small">Reliable IT upkeep, so your business never slows down.</p>
+          </div>
+        </a>
+      </div>
+
+     
+
+      <!-- Card 3 -->
+      <div class="col-12 col-sm-6 col-md-3">
+        <a href="ser_techstaff.php" class="text-decoration-none text-dark">
+          <div class="card feature-card h-100 text-center p-4">
+            <i class="fa fa-users fa-3x text-primary mb-3"></i>
+            <h5 class="fw-bold">Technology Staffing</h5>
+            <p class="mb-0 small">The right talent, when you need it.</p>
+          </div>
+        </a>
+      </div>
+
 
     </div>
   </div>

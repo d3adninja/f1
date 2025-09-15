@@ -77,9 +77,9 @@
         z-index: 2;
         margin-top: 75px;
         display: flex;
-        gap: 22px;
+        gap: 42px;
         justify-content: flex-start;
-        padding-left: 420px;
+        padding-left: 300px;
         margin-right: 80px;
         height: 200px;
     }
@@ -91,7 +91,7 @@
         border-radius: 14px;
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
         height: 30vh;
-        width: 280px;
+        width: 440px;
         cursor: pointer;
     }
 
@@ -225,7 +225,7 @@
 
 <section class="about" id="about">
     <h1 class="about-heading">Glimpse of our events</h1>
-    <img class="about-bg" src="img/employes.avif" alt="About background" />
+    <img class="about-bg" src="img/eventsmain.jpg" alt="About background" />
     <div class="commitment">
         <h2>Events at F1 </h2>
         <p>

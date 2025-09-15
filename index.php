@@ -2,67 +2,63 @@
 
 
 
-<!-- Hero Start -->
-<div class="container-fluid pb-5 hero-header bg-light mb-5">
-  <div class="container py-5">
-    <div class="row g-5 align-items-center mb-5">
-      <div class="col-lg-6">
-        <h1 class="display-1 mb-4 animated slideInRight">
-          Simplifying Complex
-          <span class="text-primary">IT Landscapes</span>
-        </h1>
-        <h5
-class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slideInRight">
-          From virtualization to migration — we design, deploy, and manage
-          technology that works for your business.
-        </h5>
-      </div>
-      <div class="col-lg-6">
-        <div class="owl-carousel header-carousel animated fadeIn">
-          <img class="img-fluid" src="img/c3.jpg" alt="" />
-          <img class="img-fluid" src="img/c1.jpg" alt="" />
-          <img class="img-fluid" src="img/c2.jpg" alt="" />
+<div class="container-fluid pb-5 hero-header bg-light mb-sm-3 mb-5">
+    <div class="container py-sm-3 py-5">
+        <div class="row g-sm-3 g-5 align-items-center mb-sm-3 mb-5">
+            <div class="col-lg-6">
+                <h1 class="display-3 mb-4 animated slideInRight">
+                    Simplifying Complex
+                    <span class="text-primary">IT Landscapes</span>
+                </h1>
+                <h5 class="d-inline-block border border-2 border-white py-2 px-3 mb-0 animated slideInRight">
+                    From virtualization to migration — we design, deploy, and manage
+                    technology that works for your business.
+                </h5>
+            </div>
+            <div class="col-lg-6">
+                <div class="owl-carousel header-carousel animated fadeIn">
+                    <img class="img-fluid" src="img/c3.jpg" alt="" />
+                    <img class="img-fluid" src="img/c1.jpg" alt="" />
+                    <img class="img-fluid" src="img/c2.jpg" alt="" />
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="row g-sm-3 g-5 animated fadeIn">
+            <div class="col-sm-6 col-lg-3">
+                <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
+                        <i class="fa fa-trophy text-primary"></i>
+                    </div>
+                    <h5 class="lh-base mb-0">60+ Industry & OEM Awards</h5>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
+                        <i class="fa fa-history text-primary"></i>
+                    </div>
+                    <h5 class="lh-base mb-0">23+ Years of Proven Expertise</h5>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
+                        <i class="fa fa-globe text-primary"></i>
+                    </div>
+                    <h5 class="lh-base mb-0">300+ Global <br> Customers</h5>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
+                        <i class="fa fa-users text-primary"></i>
+                    </div>
+                    <h5 class="lh-base mb-0">100+ Skilled Professionals</h5>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row g-5 animated fadeIn">
-      <div class="col-md-6 col-lg-3">
-        <div class="d-flex align-items-center">
-          <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-            <i class="fa fa-trophy text-primary"></i>
-          </div>
-          <h5 class="lh-base mb-0">60+ Industry & OEM Awards</h5>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-3">
-        <div class="d-flex align-items-center">
-          <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-            <i class="fa fa-history text-primary"></i>
-          </div>
-          <h5 class="lh-base mb-0">23+ Years of Proven Expertise</h5>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-3">
-        <div class="d-flex align-items-center">
-          <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-            <i class="fa fa-globe text-primary"></i>
-          </div>
-          <h5 class="lh-base mb-0">300+ Global <br> Customers</h5>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-3">
-        <div class="d-flex align-items-center">
-          <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-            <i class="fa fa-users text-primary"></i>
-          </div>
-          <h5 class="lh-base mb-0">100+ Skilled Professionals</h5>
-        </div>
-      </div>
-    </div>
-
-  </div>
 </div>
-<!-- Hero End -->
 <!-- Hero End -->
 
 
@@ -123,6 +119,137 @@ class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slide
     background-color: #0d6efd !important;
     color: #fff !important;
   }
+
+
+  /* Make icons inside solution cards white */
+.sol-card i {
+  color: #fff !important;
+}
+</style>
+<style>
+/* Card styling */
+.sol-card {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  min-height: 350px; /* Make cards taller */
+}
+
+/* Background images (local) */
+.row > div:nth-child(1) .sol-card {
+  background-image: url('img/virtualization.jpg');
+}
+.row > div:nth-child(2) .sol-card {
+  background-image: url('img/last.jpg');
+}
+.row > div:nth-child(3) .sol-card {
+  background-image: url('img/deploy6.jpg');
+}
+.row > div:nth-child(4) .sol-card {
+  background-image: url('img/deploy7.webp');
+}
+
+/* Background images (local) */
+.row > div:nth-child(1) .ser-card {
+  background-image: url('img/securityandgovernance.png');
+}
+.row > div:nth-child(2) .ser-card {
+  background-image: url('img/managedservices.png');
+}
+.row > div:nth-child(3) .ser-card {
+  background-image: url('img/techstaffing.avif');
+}
+.row > div:nth-child(4) .ser-card {
+  background-image: url('img/processautomation.png');
+}
+
+
+.ser-card {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  min-height: 350px; /* Make cards taller */
+}
+.ser-card i {
+  color: #fff !important;
+}/* Hover effect */
+.ser-card:hover {
+  transform: translateY(-12px);
+}
+
+
+
+
+
+/* Dark overlay */
+.sol-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Text + Icon overlay */
+.sol-content {
+  position: relative;
+  z-index: 2;
+  padding: 25px;
+}
+
+.sol-content i {
+  color: #0d6efd;
+  font-size: 3.2rem; /* Bigger icons */
+}
+
+.sol-content h5 {
+  color: #fff !important;
+  font-size: 1.4rem; /* Bigger heading */
+  margin-bottom: 10px;
+}
+
+.sol-content p {
+  font-size: 1rem; /* Slightly bigger body text */
+  line-height: 1.6;
+}
+
+/* Hover effect */
+.sol-card:hover {
+  transform: translateY(-12px);
+}
+
+/* Custom button style */
+.sol-btn {
+  font-size: 1.1rem;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  border: 2px solid #0d6efd;
+  background-color: transparent !important;
+  color: #0d6efd !important;
+  transition: all 0.3s ease;
+}
+.sol-btn:hover {
+  background-color: #0d6efd !important;
+  color: #fff !important;
+}
+
+/* Section heading */
+.sol-heading h1 {
+  font-size: 2.5rem; /* Bigger heading above cards */
+  font-weight: 700;
+}
 </style>
 
 
@@ -217,92 +344,6 @@ class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slide
 </div>
 <!-- Feature End -->
 
-<style>
-/* Card styling */
-.sol-card {
-  position: relative;
-  aspect-ratio: 3 / 4;
-  overflow: hidden;
-  color: #fff;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.3s ease;
-  min-height: 350px; /* Make cards taller */
-}
-
-/* Background images (local) */
-.row > div:nth-child(1) .sol-card {
-  background-image: url('img/virtualization.jpg');
-}
-.row > div:nth-child(2) .sol-card {
-  background-image: url('img/last.jpg');
-}
-.row > div:nth-child(3) .sol-card {
-  background-image: url('img/deploy6.jpg');
-}
-.row > div:nth-child(4) .sol-card {
-  background-image: url('img/deploy7.webp');
-}
-
-/* Dark overlay */
-.sol-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45);
-}
-
-/* Text + Icon overlay */
-.sol-content {
-  position: relative;
-  z-index: 2;
-  padding: 25px;
-}
-
-.sol-content i {
-  color: #0d6efd;
-  font-size: 3.2rem; /* Bigger icons */
-}
-
-.sol-content h5 {
-  color: #fff !important;
-  font-size: 1.4rem; /* Bigger heading */
-  margin-bottom: 10px;
-}
-
-.sol-content p {
-  font-size: 1rem; /* Slightly bigger body text */
-  line-height: 1.6;
-}
-
-/* Hover effect */
-.sol-card:hover {
-  transform: translateY(-12px);
-}
-
-/* Custom button style */
-.sol-btn {
-  font-size: 1.1rem;
-  padding: 0.8rem 2rem;
-  border-radius: 50px;
-  border: 2px solid #0d6efd;
-  background-color: transparent !important;
-  color: #0d6efd !important;
-  transition: all 0.3s ease;
-}
-.sol-btn:hover {
-  background-color: #0d6efd !important;
-  color: #fff !important;
-}
-
-/* Section heading */
-.sol-heading h1 {
-  font-size: 2.5rem; /* Bigger heading above cards */
-  font-weight: 700;
-}
-</style>
 
 
 <br>
@@ -332,14 +373,14 @@ class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slide
     <div class="row g-4">
       <!-- Card 1 -->
       <div class="col-12 col-sm-6 col-md-3">
-        <a href="ser_amc.php" class="text-decoration-none">
-          <div class="card sol-card text-center">
+        <a href="ser_secngov.php" class="text-decoration-none">
+          <div class="card ser-card text-center">
             <div class="sol-overlay"></div>
             <div class="sol-content">
               <i class="fa fa-tools fa-3x mb-3"></i>
-              <h5 class="fw-bold">AMC Services</h5>
+              <h5 class="fw-bold">Security & Governance</h5>
               <p class="mb-0 small">
-                Reliable IT upkeep, so your business never slows down.
+                Protecting your data, securing your trust.
               </p>
             </div>
           </div>
@@ -349,7 +390,7 @@ class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slide
       <!-- Card 2 -->
       <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_manserv.php" class="text-decoration-none">
-          <div class="card sol-card text-center">
+          <div class="card ser-card text-center">
             <div class="sol-overlay"></div>
             <div class="sol-content">
               <i class="fa fa-cogs fa-3x mb-3"></i>
@@ -365,7 +406,7 @@ class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slide
       <!-- Card 3 -->
       <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_techstaff.php" class="text-decoration-none">
-          <div class="card sol-card text-center">
+          <div class="card ser-card text-center">
             <div class="sol-overlay"></div>
             <div class="sol-content">
               <i class="fa fa-users fa-3x mb-3"></i>
@@ -381,7 +422,7 @@ class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slide
       <!-- Card 4 -->
       <div class="col-12 col-sm-6 col-md-3">
         <a href="ser_processauto.php" class="text-decoration-none">
-          <div class="card sol-card text-center">
+          <div class="card ser-card text-center">
             <div class="sol-overlay"></div>
             <div class="sol-content">
               <i class="fa fa-robot fa-3x mb-3"></i>
@@ -492,7 +533,7 @@ class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slide
                     F1 InfoTech hosts “Innovate and Migrate” roundtable in
                     partnership with Nutanix – July 2025
                   </p>
-                 <a class="btn custom-outline-btn px-5 py-3 me-2" href="events.php">View More</a>
+                 <a class="btn custom-outline-btn " href="events.php">View More</a>
                 </div>
               </div>
             </div>
@@ -512,7 +553,7 @@ class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slide
                     Celebrating success while prepping for the year ahead –
                     May 2025
                   </p>
-                  <a class="btn custom-outline-btn px-5 py-3 me-2" href="events.php">View More</a>
+                  <a class="btn custom-outline-btn" href="events.php">View More</a>
                 </div>
               </div>
             </div>
@@ -535,7 +576,7 @@ class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slide
                   <style>
                   .custom-outline-btn {
   font-size: 1.1rem;
-  padding: 0.9rem 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 50px;             /* more rounded */
   border: 2px solid #0d6efd;       /* blue border */
   background-color: transparent;   /* no background */
@@ -549,7 +590,7 @@ class="d-inline-block border border-2 border-white py-3 px-5 mb-0 animated slide
   color: #fff !important;     /* white text on hover */
 }
 </style>
-                  <a class="btn custom-outline-btn px-5 py-3 me-2" href="events.php">View More</a>
+                  <a class="btn custom-outline-btn " href="events.php">View More</a>
                   
                 </div>
               </div>

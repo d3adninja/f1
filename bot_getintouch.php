@@ -47,7 +47,7 @@
 .get-in-touch .btn {
   background-color: white;
   color: black;
-  padding: 1rem 2rem;        /* bigger button */
+  padding: 0.5rem 1rem;        /* bigger button */
   font-size: 1.1rem;         /* larger text */
   border: none;
   border-radius: 50px;       /* more rounded */
@@ -59,7 +59,7 @@
   transition: all 0.3s ease;
   white-space: nowrap;
   text-decoration: none;
-  margin-top:50px;
+  margin-top:25px;
 }
 
 .get-in-touch .btn:hover {

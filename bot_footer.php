@@ -94,7 +94,11 @@
       <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
         <h5 class="text-white mb-4">Who we Serve</h5>
         <a class="btn btn-link" href="">Banking</a>
+        <a class="btn btn-link" href="">Finance</a>
+        <a class="btn btn-link" href="">Enterprises</a>
         <a class="btn btn-link" href="">Health Care</a>
+        <a class="btn btn-link" href="">Start ups</a>
+        <a class="btn btn-link" href="">Public & Government Sector</a>
         <a class="btn btn-link" href="">Consumer Goods</a>
         <a class="btn btn-link" href="">Contact Us</a>
       </div>

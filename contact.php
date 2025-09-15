@@ -1,25 +1,24 @@
 <?php require('top_nav.php'); ?>
 
-    <!-- Hero Start -->
     <div class="container-fluid pb-5 bg-primary hero-header">
-        <div class="container py-5">
-            <div class="row g-3 align-items-center">
-                <div class="col-lg-6 text-center text-lg-start">
-                    <h1 class="display-1 mb-0 animated slideInLeft">Connect with Us</h1>
-                </div>
-                <div class="col-lg-6 animated slideInRight">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center justify-content-lg-end mb-0">
-                            <li class="breadcrumb-item"><a class="text-primary" href="#">Home</a></li>
-                           
-                            <li class="breadcrumb-item text-secondary active" aria-current="page">Connect with Us</li>
-                        </ol>
-                    </nav>
-                </div>
+    <div class="container py-5">
+        <div class="row g-3 align-items-center">
+            <div class="col-lg-6 text-center text-lg-start">
+                <h1 class="display-1 mb-0 animated slideInLeft text-nowrap">Connect with Us</h1>
+            </div>
+            <div class="col-lg-6 animated slideInRight">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center justify-content-lg-end mb-0">
+                        <li class="breadcrumb-item"><a class="text-primary" href="#">Home</a></li>
+                        <li class="breadcrumb-item text-secondary active" aria-current="page">Connect with Us</li>
+                    </ol>
+                </nav>
             </div>
         </div>
     </div>
+</div>
     <!-- Hero End -->
+     
 
 
 <!-- Contact Start -->
@@ -27,7 +26,7 @@
     <div class="container py-5">
         <div class="text-center wow fadeIn" data-wow-delay="0.1s">
             <h1 class="mb-5">Have Any Query? 
-                <span class="text-uppercase text-primary  px-2">Get in Touch</span>
+                <span class="text-uppercase text-primary bg-white px-2">Get in Touch</span>
             </h1>
         </div>
         <div class="row justify-content-center g-4 align-items-stretch">

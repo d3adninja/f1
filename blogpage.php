@@ -142,7 +142,7 @@
                         <style>
                   .custom-outline-btn {
   font-size: 1.1rem;
-  padding: 0.9rem 2rem;
+  padding: 0.5rem 1rem;
   border-radius: 50px;             /* more rounded */
   border: 2px solid #0d6efd;       /* blue border */
   background-color: transparent;   /* no background */
@@ -156,7 +156,7 @@
   color: #fff !important;     /* white text on hover */
 }
 </style>
-                  <a class="btn custom-outline-btn px-5 py-3 me-2" href="events.php">Get in Touch</a>
+                  <a class="btn custom-outline-btn " href="events.php">Get in Touch</a>
                     </div>
                     
                 </div>
