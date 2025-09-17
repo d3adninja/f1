@@ -82,14 +82,14 @@
       </div>
       <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
         <h5 class="text-white mb-4">Our Services</h5>
-        <a class="btn btn-link" href="">AMC Services</a>
-        <a class="btn btn-link" href="">Managed Services</a>
-        <a class="btn btn-link" href="">Technology Staffing</a>
-        <a class="btn btn-link" href="">Process Automation</a>
-        <a class="btn btn-link" href="">Security & Governance</a>
-        <a class="btn btn-link" href="">Project Automation</a>
-        <a class="btn btn-link" href="">Compliance Audit</a>
-        <a class="btn btn-link" href="">Multi-Vendor & Location Support</a>
+        <a class="btn btn-link" href="ser_amc.php">AMC Services</a>
+        <a class="btn btn-link" href="ser_manserv.php">Managed Services</a>
+        <a class="btn btn-link" href="ser_techstaff.php">Technology Staffing</a>
+        <a class="btn btn-link" href="ser_processauto.php">Process Automation</a>
+        <a class="btn btn-link" href="ser_secngov.php">Security & Governance</a>
+        <a class="btn btn-link" href="ser_projauto.php">Project Automation</a>
+        <a class="btn btn-link" href="ser_compaudit.php">Compliance Audit</a>
+        <a class="btn btn-link" href="ser_locsupp.php">Multi-Vendor & Location Support</a>
       </div>
       <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
         <h5 class="text-white mb-4">Who we Serve</h5>

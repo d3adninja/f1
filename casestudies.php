@@ -21,8 +21,8 @@
 <!-- Hero End -->
 
 <!-- Case Studies Content Start -->
-<div class="container-fluid py-5">
-  <div class="container">
+<div class="container-fluid py-5 bg-light">
+  <div class="container ">
     <div class="text-center mb-5">
       <h1>
         <span class="text-uppercase text-primary bg-white px-2">
@@ -62,6 +62,7 @@ Disaster Recovery Setup with F1 InfoTech</h3>
 
 </div>
 
+<?php require("bot_getintouch.php"); ?>
 
   </div>
 </div>
@@ -128,5 +129,4 @@ Disaster Recovery Setup with F1 InfoTech</h3>
 </style>
 <!-- Case Studies Content End -->
 
-<?php require("bot_getintouch.php"); ?>
 <?php require("bot_footer.php"); ?>

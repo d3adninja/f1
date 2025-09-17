@@ -22,7 +22,7 @@
 <!-- Hero End -->
 
 <!-- Blog Content Start -->
-<div class="container-fluid py-5">
+<div class="container-fluid py-5  ">
     <div class="container col-lg-9">
 
         <!-- Blog Card -->
@@ -124,7 +124,7 @@
                     <div class="text-center">
                         <h2 class="fw-bold text-primary mb-3" style="font-size:2rem;">
                             F1 Can Help! Here’s How
-                         </h2>
+                        </h2>
                     </div>
                     <p class="mb-3" style="font-size:1.1rem; line-height:1.8;">
                         At <strong>F1 InfoTech</strong>, we partner with organizations like yours to build cloud strategies that
@@ -140,25 +140,31 @@
                     <!-- Centered Button -->
                     <div class="text-center">
                         <style>
-                  .custom-outline-btn {
-  font-size: 1.1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 50px;             /* more rounded */
-  border: 2px solid #0d6efd;       /* blue border */
-  background-color: transparent;   /* no background */
-  color: #0d6efd !important;       /* blue text */
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
+                            .custom-outline-btn {
+                                font-size: 1.1rem;
+                                padding: 0.5rem 1rem;
+                                border-radius: 50px;
+                                /* more rounded */
+                                border: 2px solid #0d6efd;
+                                /* blue border */
+                                background-color: transparent;
+                                /* no background */
+                                color: #0d6efd !important;
+                                /* blue text */
+                                font-weight: 600;
+                                transition: all 0.3s ease;
+                            }
 
-.custom-outline-btn:hover {
-  background-color: #0d6efd;  /* blue background on hover */
-  color: #fff !important;     /* white text on hover */
-}
-</style>
-                  <a class="btn custom-outline-btn " href="events.php">Get in Touch</a>
+                            .custom-outline-btn:hover {
+                                background-color: #0d6efd;
+                                /* blue background on hover */
+                                color: #fff !important;
+                                /* white text on hover */
+                            }
+                        </style>
+                        <a class="btn custom-outline-btn " href="events.php">Get in Touch</a>
                     </div>
-                    
+
                 </div>
             </div>
 
