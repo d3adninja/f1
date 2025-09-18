@@ -1,6 +1,6 @@
 <style>
 .get-in-touch {
-  background: url('img/blue_background1.jpg') no-repeat center center/cover;
+  background:#000000;
   color: white;
   padding: 3rem 4rem;
   border-radius: 10px;
@@ -17,14 +17,14 @@
 }
 
 /* Dark overlay for readability */
-.get-in-touch::before {
+/* .get-in-touch::before {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   z-index: 1;
-}
+} */
 
 .get-in-touch .text-content,
 .get-in-touch .btn {
@@ -41,7 +41,8 @@
 .get-in-touch p {
   margin-top: 0.5rem;
   font-size: 1rem;
-  color: #ccc;
+  color: #ffffff;
+  font-weight:bold ;
 }
 
 .get-in-touch .btn {

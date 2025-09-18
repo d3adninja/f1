@@ -22,12 +22,12 @@
 
 
 <!-- Contact Start -->
-<div class="container-fluid py-5 " style="background-color:#eef7ff">
+<div class="container-fluid py-5 " style="background-color:#d3d3d3">
     <div class="container py-5">
         <div class="text-center wow fadeIn" data-wow-delay="0.1s">
-            <h1 class="mb-5">Have Any Query? 
-                <span class="text-uppercase text-primary bg-white px-2">Get in Touch</span>
-            </h1>
+           <h1 class="mb-1 py-3">
+        Have Any Query? <span class="text-uppercase text-white bg-dark px-2">Get in Touch</span>
+      </h1>
         </div>
         <div class="row justify-content-center g-4 align-items-stretch">
             
@@ -47,8 +47,8 @@
             </div>
 
             <!-- Contact Form (2/3 width) -->
-            <div class="col-lg-8 col-md-12 wow fadeIn d-flex" data-wow-delay="0.5s">
-                <div class="w-100 h-100 p-4 border rounded bg-light">
+            <div class="col-lg-8 col-md-12 wow fadeIn d-flex" data-wow-delay="0.5s"style="background-color:#A9A9A9">
+                <div class="w-100 h-100 p-4 border rounded  >
                     
                     <form class="h-100 d-flex flex-column justify-content-between">
                         <div class="row g-3">
@@ -75,7 +75,8 @@
                                     <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
                                     <label for="message">Message</label>
                                 </div>
-                                 <button class="btn btn-primary w-100 py-3 my-2 " type="submit">Send Message</button>
+                                <br>
+                                 <button class="btn btn-dark text-white w-100 py-3 my-2 " type="submit">Send Message</button>
                             </div>
                         </div>
                         <div class="mt-3">

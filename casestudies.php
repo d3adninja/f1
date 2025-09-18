@@ -21,12 +21,13 @@
 <!-- Hero End -->
 
 <!-- Case Studies Content Start -->
-<div class="container-fluid py-5 bg-light">
+<div class="container-fluid py-5 " style="background-color: #d3d3d3;>
   <div class="container ">
     <div class="text-center mb-5">
       <h1>
-        <span class="text-uppercase text-primary bg-white px-2">
-          Case Studies
+       Case
+        <span class="text-uppercase text-white bg-dark px-2">
+          Studies
         </span>
       </h1>
       <p class="lead mt-3">
@@ -39,18 +40,18 @@
   
   <!-- Card 1 -->
   <div class="card equal-card">
-    <img src="img/DPDP2.jpg" alt="TechSplash 2025">
+    <img src="img/DPDPact.webp" alt="TechSplash 2025">
     <div class="card-content">
       <h3>DPDP for one of India’s largest PSU!</h3>
       <div class="card-footer">
-        <a href="#">Explore More →</a>
+        <a href="#">Read More →</a>
       </div>
     </div>
   </div>
 
   <!-- Card 2 -->
   <div class="card equal-card">
-    <img src="img/futureready.jpg" alt="Cloud Migration">
+    <img src="img/disaster.jpg" alt="Cloud Migration">
     <div class="card-content">
       <h3>The IT arm of a Leading State Government Builds a Future-Ready,
 Disaster Recovery Setup with F1 InfoTech</h3>

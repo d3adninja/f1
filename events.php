@@ -56,7 +56,7 @@
         margin-right: 32px;
         margin-top: -25px;
         width: min(600px, 42vw);
-        background: #eef7ff;
+        background: #ffffff;
         border-radius: 18px;
         padding: 28px 30px;
         box-shadow: 0 10px 28px rgba(0, 0, 0, 0.55);
@@ -223,7 +223,7 @@
     }
 </style>
 
-<section class="about" id="about">
+<section class="about" id="about" >
     <h1 class="about-heading">Glimpse of our events</h1>
     <img class="about-bg" src="img/eventsmain.jpg" alt="About background" />
     <div class="commitment">

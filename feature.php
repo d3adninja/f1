@@ -36,7 +36,7 @@
               <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
                 <img class="img-fluid h-75" src="img/ourstory7.jpg" alt="" />
                 <div
-                  class="h-25 d-flex align-items-center text-center bg-primary px-4"
+                  class="h-25 d-flex align-items-center text-center bg-dark px-4"
                 >
                   <h4 class="text-white lh-base mb-0">
                     Started in 2003, now we are here
@@ -47,7 +47,7 @@
           </div>
           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
             <h1 class="mb-5">
-              <span class="text-uppercase text-primary bg-light px-2">Our</span>
+              <span class="text-uppercase text-white bg-dark px-2">Our</span>
               Story
             </h1>
             <p class="mb-4">
@@ -86,19 +86,15 @@
 
     
 <!-- Timeline Start -->
-<div class="container-fluid py-6" style="background-color:#eef7ff" >
+<div class="container-fluid py-6" style="background-color:#d3d3d3" >
   <div class="container" style="min-height:500px;">
     <br>
-   
-    
     <div class="text-center mb-3 wow fadeIn" data-wow-delay="0.1s">
       <h1 class="mb-1 py-3">
-        Our <span class="text-uppercase text-primary bg-white px-2">Milestones</span>
+        Our <span class="text-uppercase text-white bg-dark px-2">Milestones</span>
       </h1>
-      
     </div>
-    <br>
-    <br>
+    <br><br>
     
     <div class="timeline position-relative">
       <!-- Timeline line -->
@@ -123,7 +119,7 @@
           <div class="timeline-connector"></div>
           <div class="timeline-content">
             <h5>2006</h5>
-            <p class="small">F1 gained the status oof private limited.</p>
+            <p class="small">F1 gained the status of private limited.</p>
           </div>
         </div>
 
@@ -180,7 +176,7 @@
 <style>
   .timeline {
     position: relative;
-    padding: 140px 0 120px 0; /* increased vertical space */
+    padding: 140px 0 120px 0;
   }
   .timeline-line {
     position: absolute;
@@ -188,7 +184,7 @@
     left: 6%;
     width: 88%;
     height: 4px;
-    background: #0d6efd;
+    background: #000; /* black line */
     z-index: 1;
     transform: translateY(-50%);
     pointer-events: none;
@@ -211,7 +207,7 @@
   .timeline-dot {
     width: 30px;
     height: 30px;
-    background: #0d6efd;
+    background: #000; /* black dots */
     border-radius: 50%;
     border: 4px solid #fff;
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
@@ -223,7 +219,7 @@
   }
   .timeline-connector {
     width: 2px;
-    background: #0d6efd;
+    background: #000; /* black connector */
     position: absolute;
     left: 50%;
     z-index: 2;
@@ -249,21 +245,21 @@
     top: calc(50% - 68px);
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-bottom: 12px solid #0d6efd;
+    border-bottom: 12px solid #000; /* black arrow */
   }
   .timeline-arrow.down {
     top: calc(50% + 55px);
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
-    border-top: 12px solid #0d6efd;
+    border-top: 12px solid #000; /* black arrow */
   }
   .timeline-item.top .timeline-content {
     position: absolute;
     left: 50%;
-    top: calc(50% - 156px); /* lowered from -285px */
+    top: calc(50% - 156px);
     transform: translateX(-50%);
     background: white;
-    padding: 12px 16px; /* reduced padding */
+    padding: 12px 16px;
     border-radius: 10px;
     min-width: 150px;
     max-width: 200px;
@@ -273,10 +269,10 @@
   .timeline-item.bottom .timeline-content {
     position: absolute;
     left: 50%;
-    top: calc(50% + 24px); /* slightly more spacing */
+    top: calc(50% + 24px);
     transform: translateX(-50%);
     background: white;
-    padding: 12px 16px; /* reduced padding */
+    padding: 12px 16px;
     border-radius: 10px;
     min-width: 150px;
     max-width: 200px;
@@ -342,93 +338,89 @@
 
 
 
+
     <!-- Vision & Mission Start -->
-    <div class="container-fluid py-5">
-      <div class="container">
-        <br>
-          <br>
-          <br>
-        <div class="row g-4">
-          
-          <!-- Vision Card -->
-          <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-            <div class="card h-100 shadow border-0">
-              <div class="card-body d-flex flex-column p-4">
-                <div class="d-flex align-items-center mb-3">
-                  <i class="fa fa-eye fa-2x text-primary me-3" aria-hidden="true"></i>
-                  <h3 class="mb-0 text-center">Vision</h3>
-                </div>
-                <br>
-                <p class="mb-4">
-                  To be the most trusted partner for enterprises by delivering secure, scalable, and future-ready IT solutions that accelerate digital transformation.</p><br>
-  
-<style>
-  .custom-outline-btn {
-    font-size: 1rem;
-    padding: 0.35rem 1.2rem;     /* slimmer padding */
-    border-radius: 50px;         /* rounded pill shape */
-    border: 2px solid #0d6efd;   /* blue border */
-    background-color: transparent;
-    color: #0d6efd !important;   /* blue text */
-    font-weight: 600;
-    transition: all 0.3s ease;
-    display: inline-block;       /* only as wide as content */
-  }
-
-  .custom-outline-btn:hover {
-    background-color: #0d6efd;   /* blue background on hover */
-    color: #fff !important;      /* white text on hover */
-  }
-
-  /* center the button inside its card */
-  .btn-wrapper {
-    
-    margin-top: auto;            /* pushes button to bottom if needed */
-  }
-</style>
-
-
-</style>
-                 <div class="btn-wrapper">
-  <a class="btn custom-outline-btn" href="events.php">Read More</a>
-</div>
-              </div>
+<div class="container-fluid py-5" style="background-color:#ffffff;">
+  <div class="container">
+    <br><br><br>
+    <div class="row g-4">
+      
+      <!-- Vision Card -->
+      <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s" style="border:#000;">
+        <div class="card h-100 shadow border-0 bg-black text-white">
+          <div class="card-body d-flex flex-column p-4" style="border:2px solid #000;">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fa fa-eye fa-2x text-white me-3" aria-hidden="true"></i>
+              <h3 class="mb-0">Vision</h3>
+            </div>
+            <br>
+            <p class="mb-4 text-dark">
+              To be the most trusted partner for enterprises by delivering secure, scalable, and future-ready IT solutions that accelerate digital transformation.
+            </p>
+            <br>
+            <div class="btn-wrapper">
+              <a class="btn custom-outline-btn" href="events.php">Read More</a>
             </div>
           </div>
+        </div>
+      </div>
 
-          <!-- Mission Card -->
-          <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
-            <div class="card h-100 shadow border-0">
-              <div class="card-body d-flex flex-column p-4">
-                <div class="d-flex align-items-center mb-3">
-                  <i class="fa fa-bullseye fa-2x text-primary me-3" aria-hidden="true"></i>
-                  <h3 class="mb-0">Mission</h3>
-                </div>
-                <br>
-                <p class="mb-4">
-                  Our mission is to discover each client’s unique challenges, design innovative and tailored IT solutions, deploy them with speed, security, and efficiency, and build long-lasting partnerships that deliver measurable business value.</p>
-   
-                <div class="btn-wrapper">
-  <a class="btn custom-outline-btn" href="events.php">Read More</a>
-</div>
-              </div>
+      <!-- Mission Card -->
+      <div class="col-md-6 wow fadeIn" data-wow-delay="0.3s">
+        <div class="card h-100 shadow border-0 bg-black text-white">
+          <div class="card-body d-flex flex-column p-4" style="border:2px solid #000;">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fa fa-bullseye fa-2x text-white me-3" aria-hidden="true"></i>
+              <h3 class="mb-0">Mission</h3>
+            </div>
+            <br>
+            <p class="mb-4 text-dark">
+              Our mission is to discover each client’s unique challenges, design innovative and tailored IT solutions, deploy them with speed, security, and efficiency, and build long-lasting partnerships that deliver measurable business value.
+            </p>
+            <div class="btn-wrapper">
+              <a class="btn custom-outline-btn" href="events.php">Read More</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Vision & Mission End -->
+  </div>
+</div>
+<!-- Vision & Mission End -->
+
+<style>
+  .custom-outline-btn {
+    font-size: 1rem;
+    padding: 0.35rem 1.2rem;
+    border-radius: 50px;         
+    border: 2px solid #000000;      /* white border */
+    background-color: #fff;      /* white background */
+    color: #000 !important;      /* black text */
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+    
+  }
+
+  .custom-outline-btn:hover {
+    background-color: #000;   /* black background on hover */
+    color: #fff !important;   /* white text on hover */
+    border-color: #000;       /* black border on hover */
+  }
+</style>
+
 
 
 
 <!-- Service Start -->
-   <div class="container-fluid py-5" style="background-color:#eef7ff">
+   <div class="container-fluid py-5" style="background-color:#d3d3d3">
   <div class="container py-5 text-center">
     <!-- Section Header -->
-    <h1 class="mb-4 wow fadeIn" data-wow-delay="0.1s">
-      Our
-      <span class="text-uppercase text-primary bg-light px-2">Approach</span>
-    </h1>
+    <div class="text-center mb-3 wow fadeIn" data-wow-delay="0.1s">
+      <h1 class="mb-1 py-3">
+        Our <span class="text-uppercase text-white bg-dark px-2">Approach</span>
+      </h1>
+    </div>
     <p class="mb-5 wow fadeIn" data-wow-delay="0.2s">
       We follow a Discover–Design–Deploy–Retain model, ensuring every
       solution is thoughtfully crafted, efficiently executed, and
@@ -440,10 +432,10 @@
     <div class="row g-4 justify-content-center">
       <!-- Discover -->
       <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-        <div class="service-item h-100 d-flex flex-column align-items-center bg-primary text-center p-4 rounded-3 shadow">
+        <div class="service-item h-100 d-flex flex-column align-items-center bg-dark text-center p-4 rounded-3 shadow">
           <img class="img-fluid mb-3" src="img/discover4.png" alt="Discover" />
-          <h3 class="mb-2">Discover</h3>
-          <p>Identify goals, problems and gather detailed requirements.</p>
+          <h3 class="mb-2 ">Discover</h3>
+          <p class="">Identify goals, problems and gather detailed requirements.</p>
         </div>
       </div>
 
@@ -458,11 +450,11 @@
 
       <!-- Retain -->
       <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-        <div class="service-item h-100 d-flex flex-column align-items-center bg-primary text-center p-4 rounded-3 shadow">
+        <div class="service-item h-100 d-flex flex-column align-items-center bg-dark text-center p-4 rounded-3 shadow">
           <img class="img-fluid mb-3" src="img/retain3.png" alt="Retain" />
           
-          <h3 class="mb-2">Deploy</h3>
-          <p>Build, test, and deploy scalable solutions with precision.</p>
+          <h3 class="mb-2 ">Deploy</h3>
+          <p class=" ">Build, test, and deploy scalable solutions with precision.</p>
         </div>
       </div>
 

@@ -28,7 +28,10 @@
 <div class="container-fluid py-5">
   <div class="container py-5">
     <h1 class="mb-5">
-      OUR <span class="text-uppercase text-primary bg-light px-2">Directors</span>
+      <div class="text-center mb-3 wow fadeIn" data-wow-delay="0.1s">
+      <h1 class="mb-5 py-3">
+        Our <span class="text-uppercase text-white bg-dark px-2">Directors</span>
+      </h1>
     </h1>
 
     <div class="row g-5 align-items-center">
@@ -46,17 +49,17 @@
           <!-- Text Content -->
           <div class="ms-4">
             <h4 class="mb-1">Manish Manocha</h4>
-            <small class="text-uppercase text-primary d-block mb-2">Director</small>
+            <small class="text-uppercase text-dark d-block mb-2">Director</small>
             <p class="mb-3">
               Director at F1InfoTech.Supervises the technical area of company.
             </p>
-            <!-- Social Icons -->
             <div class="d-flex">
-              <span class="fs-5 text-primary">LinkedIn Profile: &nbsp;</span>
-              <a class="btn btn-outline-primary btn-sm-square border-2" href="">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div>
+  <span class="fs-5 text-dark">LinkedIn Profile: &nbsp;</span>
+  <a class="btn btn-outline-dark btn-sm-square border-2" href="">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+</div>
+
           </div>
         </div>
       </div>
@@ -75,18 +78,19 @@
           <!-- Text Content -->
           <div class="ms-4">
             <h4 class="mb-1">Sunil Gupta</h4>
-            <small class="text-uppercase text-primary d-block mb-2">Director</small>
+            <small class="text-uppercase text-dark d-block mb-2">Director</small>
             <p class="mb-3">
               Director at F1InfoTech.
 Supervises the marketing area of company.
             </p>
             <!-- Social Icons -->
-            <div class="d-flex">
-              <span class="fs-5 text-primary">LinkedIn Profile: &nbsp;</span>
-              <a class="btn btn-outline-primary btn-sm-square border-2" href="">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div>
+            <<div class="d-flex">
+  <span class="fs-5 text-dark">LinkedIn Profile: &nbsp;</span>
+  <a class="btn btn-outline-dark btn-sm-square border-2" href="">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+</div>
+
           </div>
         </div>
       </div>
@@ -124,38 +128,40 @@ Supervises the marketing area of company.
     <div class="container-fluid  py-5">
       <div class="container py-5">
         <h1 class="mb-5">
-          Our<span class="text-uppercase text-primary bg-light px-2">
-            Professionals
-          </span>
+      <div class="text-center mb-3 wow fadeIn" data-wow-delay="0.1s">
+      <h1 class="mb-5 py-3">
+        Our <span class="text-uppercase text-white bg-dark px-2">Professionals</span>
+      </h1>
+    </h1>
         </h1>
         <div class="row g-4">
           <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
             <div class="team-item position-relative overflow-hidden">
               <img class="img-fluid w-100" src="img/Manishsir1.jpg" alt="" />
               <div class="team-overlay">
-                <small class="mb-2">Director</small>
+               <small class="text-white bg-dark px-2 py-1 rounded">Director</small>
                 <h4 class="lh-base text-light">Manish Manocha</h4>
                 <div class="d-flex justify-content-center">
                   <a
-                    class="btn btn-outline-primary btn-sm-square border-2 me-2"
+                    class="btn btn-outline-light btn-sm-square border-2 me-2"
                     href=""
                   >
                     <i class="fab fa-facebook-f"></i>
                   </a>
                   <a
-                    class="btn btn-outline-primary btn-sm-square border-2 me-2"
+                    class="btn btn-outline-light btn-sm-square border-2 me-2"
                     href=""
                   >
                     <i class="fab fa-twitter"></i>
                   </a>
                   <a
-                    class="btn btn-outline-primary btn-sm-square border-2 me-2"
+                    class="btn btn-outline-light btn-sm-square border-2 me-2"
                     href=""
                   >
                     <i class="fab fa-instagram"></i>
                   </a>
                   <a
-                    class="btn btn-outline-primary btn-sm-square border-2 me-2"
+                    class="btn btn-outline-light btn-sm-square border-2 me-2"
                     href=""
                   >
                     <i class="fab fa-linkedin-in"></i>
@@ -168,29 +174,29 @@ Supervises the marketing area of company.
             <div class="team-item position-relative overflow-hidden">
               <img class="img-fluid w-100" src="img/SunilGupta2.jpg" alt="" />
               <div class="team-overlay">
-                <small class="mb-2">Director</small>
+                <small class="text-white bg-dark px-2 py-1 rounded">Director</small>
                 <h4 class="lh-base text-light">Sunil Gupta</h4>
                 <div class="d-flex justify-content-center">
                   <a
-                    class="btn btn-outline-primary btn-sm-square border-2 me-2"
+                    class="btn btn-outline-light btn-sm-square border-2 me-2"
                     href=""
                   >
                     <i class="fab fa-facebook-f"></i>
                   </a>
                   <a
-                    class="btn btn-outline-primary btn-sm-square border-2 me-2"
+                    class="btn btn-outline-light btn-sm-square border-2 me-2"
                     href=""
                   >
                     <i class="fab fa-twitter"></i>
                   </a>
                   <a
-                    class="btn btn-outline-primary btn-sm-square border-2 me-2"
+                    class="btn btn-outline-light btn-sm-square border-2 me-2"
                     href=""
                   >
                     <i class="fab fa-instagram"></i>
                   </a>
                   <a
-                    class="btn btn-outline-primary btn-sm-square border-2 me-2"
+                    class="btn btn-outline-light btn-sm-square border-2 me-2"
                     href=""
                   >
                     <i class="fab fa-linkedin-in"></i>

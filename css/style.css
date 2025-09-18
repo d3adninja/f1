@@ -75,7 +75,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-primary)
+    color: var(--bs-dark)
 }
 
 .navbar .dropdown-toggle::after {
@@ -90,7 +90,7 @@
 .navbar .dropdown-menu .dropdown-item:hover,
 .navbar .dropdown-menu .dropdown-item.active {
     color: var(--bs-white);
-    background: var(--bs-primary);
+    background: var(--bs-dark);
 }
 
 @media (max-width: 991.98px) {
@@ -124,7 +124,7 @@
 .hero-header {
     margin-top: -100px;
     padding-top: 150px;
-    background: url(../img/hero-bg.jpg) top center no-repeat;
+    background: url(../img/hero-bg-darkgrey.png) top center no-repeat;
     background-size: cover;
 }
 
@@ -144,7 +144,7 @@
     right: 0;
     width: calc(50% + 45px);
     height: 100%;
-    background: var(--bs-primary);
+    background: var(--bs-dark);
     z-index: -1;
 }
 
@@ -219,68 +219,52 @@
 
 
 /*** Service ***/
+/*** Service ***/
 .service-item {
     position: relative;
     padding: 30px 25px;
-    transition: .5s;
+    transition: all 0.5s ease;
 }
 
-.service-item.bg-primary:hover {
-    background: var(--bs-light) !important;
-}
-
-.service-item.bg-primary p {
+/* === Black Card Default === */
+.service-item.bg-dark {
+    background: var(--bs-dark) !important;
     color: var(--bs-light);
-    transition: .5s;
+}
+.service-item.bg-dark h3,
+.service-item.bg-dark p {
+    color: var(--bs-light);
+    transition: all 0.5s ease;
+}
+/* Hover → background white, text black */
+.service-item.bg-dark:hover {
+    background: var(--bs-light) !important;
+    color: var(--bs-dark);
+}
+.service-item.bg-dark:hover h3,
+.service-item.bg-dark:hover p {
+    color: var(--bs-dark);
 }
 
-.service-item.bg-primary:hover p {
-    color: var(--bs-secondary);
+/* === White Card Default === */
+.service-item.bg-light {
+    background: var(--bs-light) !important;
+    color: var(--bs-dark);
 }
-
-.service-item.bg-light:hover {
-    background: var(--bs-primary) !important;
-}
-
+.service-item.bg-light h3,
 .service-item.bg-light p {
-    color: var(--bs-secondary);
-    transition: .5s;
+    color: var(--bs-dark);
+    transition: all 0.5s ease;
 }
-
+/* Hover → background black, text white */
+.service-item.bg-light:hover {
+    background: var(--bs-dark) !important;
+    color: var(--bs-light);
+}
+.service-item.bg-light:hover h3,
 .service-item.bg-light:hover p {
     color: var(--bs-light);
 }
-
-
-.service-item .service-img h3 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 0 12px 7px 0;
-}
-
-.service-item.bg-primary .service-img h3 {
-    background: var(--bs-primary);
-    color: var(--bs-white);
-    transition: .5s;
-}
-
-.service-item.bg-primary:hover .service-img h3 {
-    background: var(--bs-light);
-    color: var(--bs-dark);
-}
-
-.service-item.bg-light .service-img h3 {
-    background: var(--bs-light);
-    color: var(--bs-dark);
-    transition: .5s;
-}
-
-.service-item.bg-light:hover .service-img h3 {
-    background: var(--bs-primary);
-    color: var(--bs-white);
-}
-
 
 /*** Our Team ***/
 .team-item img {
@@ -327,7 +311,7 @@
     left: 0;
     width: calc(50% + 45px);
     height: 100%;
-    background: var(--bs-primary);
+    background: var(--bs-dark);
     z-index: -1;
 }
 
@@ -361,14 +345,14 @@
     margin-left: 10px;
     width: 15px;
     height: 15px;
-    background: var(--bs-white);
+    background: var(--bs-dark);
     border: 2px solid var(--bs-primary);
     transition: .5s;
 }
 
 .testimonial-carousel .owl-dot.active {
     width: 30px;
-    background: var(--bs-primary);
+    background: var(--bs-dark);
 }
 
 @media (max-width: 768px) {

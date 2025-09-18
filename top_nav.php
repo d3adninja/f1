@@ -66,7 +66,7 @@
     <div class="container-fluid sticky-top">
       <div class="container">
         <nav
-          class="navbar navbar-expand-lg navbar-light border-bottom border-2 border-white"
+          class="navbar navbar-expand-lg navbar  border-bottom border-2 border-white"
         >
           <a href="index.php" class="navbar-brand d-flex align-items-center">
   <!-- Full text logo (desktop only) -->
@@ -104,7 +104,7 @@
                 >Company</a>
                 <div
                   class="dropdown-menu p-4 mt-2 w-100"
-                  style="left: 0; background-color: #eef7ffff; border: none;">
+                  style="left: 0; background-color: #ffffff; border: none;">
                   <div class="d-flex flex-wrap justify-content-between">
                     <!-- Section 1: Text -->
                     <div class="me-4">

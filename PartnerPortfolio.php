@@ -29,9 +29,11 @@
 <div class="container-xxl py-5">
   <div class="container py-5">
     <div class="text-center mb-5 wow fadeIn" data-wow-delay="0.1s">
-      <h1 class="mb-1">
-        Our <span class="text-uppercase text-primary bg-light px-2">Partners</span>
+      <div class="text-center mb-3 wow fadeIn" data-wow-delay="0.1s">
+      <h1 class="mb-1 py-3">
+        Our <span class="text-uppercase text-white bg-dark px-2">Parteners</span>
       </h1>
+    </div>
       <p class="text-muted">Trusted by leading companies worldwide</p>
     </div>
 

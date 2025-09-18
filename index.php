@@ -8,7 +8,7 @@
             <div class="col-lg-6">
                 <h1 class="display-3 mb-4 animated slideInRight">
                     Simplifying Complex
-                    <span class="text-primary">IT Landscapes</span>
+                    <span class="text-white">IT Landscapes</span>
                 </h1>
                 <h5 class="d-inline-block border border-2 border-white py-2 px-3 mb-0 animated slideInRight">
                     From virtualization to migration — we design, deploy, and manage
@@ -18,7 +18,7 @@
             <div class="col-lg-6">
                 <div class="owl-carousel header-carousel animated fadeIn">
                     <img class="img-fluid" src="img/c3.jpg" alt="" />
-                    <img class="img-fluid" src="img/c1.jpg" alt="" />
+                    <img class="img-fluid" src="img/c7.jpg" alt="" />
                     <img class="img-fluid" src="img/c2.jpg" alt="" />
                 </div>
             </div>
@@ -27,7 +27,7 @@
             <div class="col-sm-6 col-lg-3">
                 <div class="d-flex align-items-center">
                     <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-                        <i class="fa fa-trophy text-primary"></i>
+                        <i class="fa fa-trophy text-white"></i>
                     </div>
                     <h5 class="lh-base mb-0">60+ Industry & OEM Awards</h5>
                 </div>
@@ -35,7 +35,7 @@
             <div class="col-sm-6 col-lg-3">
                 <div class="d-flex align-items-center">
                     <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-                        <i class="fa fa-history text-primary"></i>
+                        <i class="fa fa-history text-white"></i>
                     </div>
                     <h5 class="lh-base mb-0">23+ Years of Proven Expertise</h5>
                 </div>
@@ -43,7 +43,7 @@
             <div class="col-sm-6 col-lg-3">
                 <div class="d-flex align-items-center">
                     <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-                        <i class="fa fa-globe text-primary"></i>
+                        <i class="fa fa-globe text-white"></i>
                     </div>
                     <h5 class="lh-base mb-0">300+ Global <br> Customers</h5>
                 </div>
@@ -51,7 +51,7 @@
             <div class="col-sm-6 col-lg-3">
                 <div class="d-flex align-items-center">
                     <div class="flex-shrink-0 btn-square border border-2 border-white me-3">
-                        <i class="fa fa-users text-primary"></i>
+                        <i class="fa fa-users text-white"></i>
                     </div>
                     <h5 class="lh-base mb-0">100+ Skilled Professionals</h5>
                 </div>
@@ -109,14 +109,14 @@
     font-size: 1.1rem;
     padding: 0.8rem 2rem;
     border-radius: 50px; /* Rounded pill shape */
-    border: 2px solid #0d6efd;
+    border: 2px solid #0088cc;
     background-color: transparent !important;
-    color: #0d6efd !important;
+    color: #0088cc !important;
     transition: all 0.3s ease;
   }
 
   .custom-btn:hover {
-    background-color: #0d6efd !important;
+    background-color: #0088cc !important;
     color: #fff !important;
   }
 
@@ -124,10 +124,12 @@
   /* Make icons inside solution cards white */
 .sol-card i {
   color: #fff !important;
+  
 }
 </style>
 <style>
 /* Card styling */
+
 .sol-card {
   position: relative;
   aspect-ratio: 3 / 4;
@@ -140,6 +142,7 @@
   justify-content: center;
   transition: transform 0.3s ease;
   min-height: 350px; /* Make cards taller */
+  border: 2px solid #ffffff; /* Dodger Blue border */
 }
 
 /* Background images (local) */
@@ -183,6 +186,7 @@
   justify-content: center;
   transition: transform 0.3s ease;
   min-height: 350px; /* Make cards taller */
+  border: 2px solid #ffffff; /* Dodger Blue border */
 }
 .ser-card i {
   color: #fff !important;
@@ -210,7 +214,7 @@
 }
 
 .sol-content i {
-  color: #0d6efd;
+  color: #0088cc;
   font-size: 3.2rem; /* Bigger icons */
 }
 
@@ -235,20 +239,21 @@
   font-size: 1.1rem;
   padding: 0.8rem 2rem;
   border-radius: 50px;
-  border: 2px solid #0d6efd;
+  border: 2px solid #ffffff;
   background-color: transparent !important;
-  color: #0d6efd !important;
+  color: #ffffff !important;
   transition: all 0.3s ease;
 }
 .sol-btn:hover {
-  background-color: #0d6efd !important;
-  color: #fff !important;
+  background-color: #ffffff !important;
+  color: #000000 !important;
 }
 
 /* Section heading */
 .sol-heading h1 {
   font-size: 2.5rem; /* Bigger heading above cards */
   font-weight: 700;
+  color: #ffffff;
 }
 </style>
 
@@ -257,13 +262,16 @@
 
 
 <!-- Feature Start -->
-<div class="container-fluid py-5" style="background-color: #cddfed;">
+<div class="container-fluid py-5" style="background-color: #000000;">
   <div class="container">
     <div class="text-center mb-5 sol-heading">
       <h1>
         Explore Solutions
-        <span class="text-uppercase text-primary bg-white px-2">
-          With F1 Infotech
+        <!-- <span class="text-uppercase text-primary bg-white px-2">
+           with F1 Infotech
+        </span> -->
+        <span class="text-uppercase text-dark bg-white px-2">
+           with F1 Infotech
         </span>
       </h1>
     </div>
@@ -336,6 +344,9 @@
 
     <!-- Button -->
     <div class="text-center mt-5">
+      <!-- <a href="solutions.php" class="btn sol-btn px-4 py-2">
+        Explore our Solutions
+      </a> -->
       <a href="solutions.php" class="btn sol-btn px-4 py-2">
         Explore our Solutions
       </a>
@@ -346,11 +357,8 @@
 
 
 
-<br>
-<br>
-<br>
-<br>
-<br>
+<hr style="margin:1px;  padding:0px">
+
 
 
 
@@ -359,12 +367,15 @@
 <!-- Services -->
 
 <!-- Services Start -->
-<div class="container-fluid py-5" style="background-color: #cddfed;">
+<div class="container-fluid py-5" style="background-color: #000000;">
   <div class="container">
     <div class="text-center mb-5 sol-heading">
       <h1>
         Explore Services
-        <span class="text-uppercase text-primary bg-white px-2">
+        <!-- <span class="text-uppercase text-primary bg-white px-2">
+          With F1 Infotech
+        </span> -->
+        <span class="text-uppercase text-dark bg-white px-2">
           With F1 Infotech
         </span>
       </h1>
@@ -474,7 +485,7 @@
   .feature-card:hover {
     transform: translateY(-8px) scale(1.03);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    border-color: #0d6efd;
+    border-color: #0088cc;
   }
 
   .feature-card i {
@@ -505,17 +516,20 @@
           style="
                 width: 180px;
                 height: 3px;
-                background: #0d6efd;
+                background: #000;     /* changed from #0088cc to black */
                 border-radius: 2px;
               "></div>
       </div>
     </div>
 
-    <div class="row justify-content-center border border-primary border-4 p-4">
+    <div class="row justify-content-center border border-dark border-4 p-4">
+      <!-- changed border-primary to border-dark -->
       <div class="col-md-12 col-lg-9">
         <div
           class="owl-carousel testimonial-carousel wow fadeIn"
           data-wow-delay="0.2s">
+          
+          <!-- Item 1 -->
           <div class="testimonial-item">
             <div class="row g-5 align-items-center">
               <div class="col-md-6">
@@ -539,6 +553,7 @@
             </div>
           </div>
 
+          <!-- Item 2 -->
           <div class="testimonial-item">
             <div class="row g-5 align-items-center">
               <div class="col-md-6">
@@ -559,6 +574,7 @@
             </div>
           </div>
 
+          <!-- Item 3 -->
           <div class="testimonial-item">
             <div class="row g-5 align-items-center">
               <div class="col-md-6">
@@ -573,23 +589,26 @@
                     Showcasing cutting-edge innovations and real-world
                     solutions at India’s top IT conference – March 2025
                   </p>
+                  
+                  <!-- keep button blue -->
                   <style>
                   .custom-outline-btn {
-  font-size: 1.1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 50px;             /* more rounded */
-  border: 2px solid #0d6efd;       /* blue border */
-  background-color: transparent;   /* no background */
-  color: #0d6efd !important;       /* blue text */
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
+                    font-size: 1.1rem;
+                    padding: 0.5rem 1rem;
+                    border-radius: 50px;
+                    border: 2px solid  #000000;   /* keep blue */
+                    background-color: transparent;
+                    color: #000000!important;   /* keep blue */
+                    font-weight: 600;
+                    transition: all 0.3s ease;
+                  }
 
-.custom-outline-btn:hover {
-  background-color: #0d6efd;  /* blue background on hover */
-  color: #fff !important;     /* white text on hover */
-}
-</style>
+                  .custom-outline-btn:hover {
+                    background-color: #000000;
+                    color: #fff !important;
+                  }
+                  </style>
+
                   <a class="btn custom-outline-btn " href="events.php">View More</a>
                   
                 </div>
@@ -603,6 +622,7 @@
   </div>
 </div>
 <!-- Testimonial End -->
+
 
 
 
@@ -686,14 +706,15 @@
 <!-- About End -->
 
 <!-- Customers Start -->
-<div class="container-fluid py-5" style="background-color: #cddfed;">
+<div class="container-fluid py-5" style="background-color: #d3d3d3;">
 
 
   <div class="text-center mb-5">
-    <h1>
-      Our <span class="text-uppercase text-primary bg-white px-2">Customers</span>
+    <h1>Our
+       <!-- <span class="text-uppercase text-primary bg-white px-2">  Customers</span> -->
+       <span class="text-uppercase text-dark bg-white px-2">  Customers</span>
     </h1>
-    <p class="text-muted">Trusted by leading enterprises across industries</p>
+    <p class="text-white">Trusted by leading enterprises across industries</p>
   </div>
 
   <!-- Second Row of Carousels -->
@@ -759,11 +780,12 @@
 
 
 
-  <div class="text-center mb-5" style="background-color: #cddfed;">
-    <h1>
-      Our <span class="text-uppercase text-primary bg-white px-2">Partners</span>
+    <div class="text-center mb-5" style="background-color: #d3d3d3;">
+    <h1>Our
+      <!-- <span class="text-uppercase text-primary bg-white px-2"> Partners</span> -->
+       <span class="text-uppercase text-dark bg-white px-2"> Partners</span>
     </h1>
-    <p class="text-muted">Trusted by leading enterprises across industries</p>
+    <p class="text-white">Trusted by leading enterprises across industries</p>
   </div>
 
   <!-- First Row of Carousels -->

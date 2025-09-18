@@ -23,12 +23,12 @@
 <!-- Hero End -->
 
 <!-- Content Start -->
-<div class="container-fluid py-5" style="background-color:#eef7ff;">
+<div class="container-fluid py-5" style="background-color:#d3d3d3;">
   <div class="container">
     <div class="text-center mb-5">
       <h1>
-        <span class="text-uppercase text-primary bg-white px-2">Virtualization</span>
-        Solutions by F1 Infotech
+        <span class="text-uppercase text-white bg-dark px-2">Virtualization</span>
+         by F1 Infotech
       </h1>
     </div>
     <div class="row g-5 align-items-center">
@@ -59,7 +59,7 @@
 
 
 <!-- Challenges Section -->
-<div class="container-fluid py-5" style="background: linear-gradient(135deg, #eef7ff, #ffffff);">
+<div class="container-fluid py-5" >
   <div class="container">
     <div class="text-center mb-5">
       <h2 class="fw-bold">Key Challenges Faced by Industry</h2>
@@ -135,7 +135,7 @@
     height: 70px;
     border-radius: 50%;
     margin: 0 auto;
-    background: linear-gradient(135deg, #0d6efd, #0a58ca);
+    background:#0088cc;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,14 +144,14 @@
     transition: all 0.3s ease-in-out;
   }
   .challenge-card:hover .challenge-icon {
-    background: linear-gradient(135deg, #0a58ca, #084298);
+    background: #0088cc;
     transform: rotate(10deg) scale(1.1);
   }
 </style>
 
 
 <!-- Who Can Benefit Section -->
-<div class="container-fluid py-5" style="background: linear-gradient(135deg, #ffffff, #eef7ff);">
+<div class="container-fluid py-5" style="background-color:#d3d3d3;">
   <div class="container">
     <div class="text-center mb-5">
       <h2 class="fw-bold">Who Can Benefit?</h2>
@@ -224,27 +224,30 @@
     border-color: #0d6efd;
   }
   .challenge-icon {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin: 0 auto;
-    background: linear-gradient(135deg, #0d6efd, #0a58ca);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 28px;
-    transition: all 0.3s ease-in-out;
-  }
-  .challenge-card:hover .challenge-icon {
-    background: linear-gradient(135deg, #0a58ca, #084298);
-    transform: rotate(10deg) scale(1.1);
-  }
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: #fff;   /* white background instead of blue */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;        /* black icon instead of white */
+  font-size: 28px;
+  transition: all 0.3s ease-in-out;
+}
+
+.challenge-card:hover .challenge-icon {
+  background: #000;   /* black background on hover */
+  color: #fff;        /* white icon on hover */
+  transform: rotate(10deg) scale(1.1);
+}
+
 </style>
 
 
 
 
 <?php require("bot_getintouch2.php"); ?>
-<?php require("bot_getintouch.php"); ?>
+
 <?php require("bot_footer.php"); ?>
