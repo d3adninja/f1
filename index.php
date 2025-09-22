@@ -356,6 +356,7 @@
 <!-- Feature End -->
 
 
+<<<<<<< Updated upstream
 
 <hr style="margin:1px;  padding:0px">
 
@@ -364,6 +365,8 @@
 
 
 
+=======
+>>>>>>> Stashed changes
 <!-- Services -->
 
 <!-- Services Start -->
